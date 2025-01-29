@@ -231,12 +231,12 @@ const posts = [
   {
     id: 12,
     title: "Second Personal Website Development",
-    href: "https://ikkoawinata.vercel.app/",
+    href: "https://ikkoawinataa.vercel.app/",
     description:
       " Build development from the first personal website before. This project using NextJS, Tailwind, Framer Motion for little animation view",
     date: "2024",
     datetime: "2024-08  -10",
-    category: { title: "More", href: "https://ikkoawinata.vercel.app/" },
+    category: { title: "More", href: "https://ikkoawinataa.vercel.app/" },
     author: {
       name: "Michael Foster",
       role: "Co-Founder / CTO",
