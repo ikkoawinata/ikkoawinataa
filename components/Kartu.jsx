@@ -5,7 +5,7 @@ const Kartu = ({ post }) => {
   const staticTags = ['Marketing', 'Trending', 'Featured'];
 
   return (
-    <article className="relative flex max-w-sm flex-col items-start justify-between border-2 border-gray-200 dark:border-gray-700 rounded-lg p-4 bg-white dark:bg-gray-800 shadow-md dark:shadow-lg">
+    <article className="relative flex max-w-full flex-col items-start justify-between border-2 border-gray-200 dark:border-gray-700 rounded-lg p-4 bg-white dark:bg-gray-800 shadow-md dark:shadow-lg">
       <div className="flex items-center gap-x-2 text-xs">
         <time dateTime={post.datetime} className="text-gray-500 dark:text-gray-400">
           {post.date}

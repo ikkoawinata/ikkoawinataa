@@ -57,13 +57,13 @@ const MobileNav = () => {
             <Logo />
             <Nav 
               containerStyles='flex flex-col items-center gap-y-6' 
-              linkStyles='text-2xl hover:text-gray-300 transition-colors duration-300'
+              linkStyles='text-lg hover:text-gray-300 transition-colors duration-300'
               onNavClick={handleNavClick} 
             />
           </div>
           <Socials 
-            containerStyles='flex gap-x-4' 
-            iconsStyles='text-2xl hover:text-gray-500 hover:scale-110 transition-transform duration-300' 
+            containerStyles='flex gap-x-5' 
+            iconsStyles='text-lg hover:text-gray-500 hover:scale-110 transition-transform duration-300' 
           />
         </div>
       </SheetContent>

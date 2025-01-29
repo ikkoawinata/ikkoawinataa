@@ -317,7 +317,6 @@ const Candidates = () => {
           </figcaption>
           <p className="font-tentang text-md text-gray-500 dark:text-gray-400 text-left font-light text-justify pl-6 mt-6 ">
           Besides that, I also check the registration status like in the image below (Registration Checkpoint Image). This way, I can see at what stage my registration process is, whether it's still at the beginning, progressing, or almost finished. By checking this, it's easier for me to follow the process without confusion. And it's also really important to always monitor the email you registered with on the Bangkit Academy platform.
-            Academy
           </p>
 
           <img
@@ -368,7 +367,7 @@ const Candidates = () => {
             className="w-full h-auto object-cover pl-6 mt-5"
           />
           <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic">
-            Step Terakhir Pendaftaran Bangkit 2024 Batch
+            Last Step Registration Bangkit 2024 (Batch 2)
           </figcaption>
 
           <p className="font-tentang mt-7 text-md text-gray-500 dark:text-white text-left text-Left font-bold italic">
@@ -389,7 +388,7 @@ The learning process involves a combination of:
           </p>
           <p className="font-tentang text-md text-gray-500 dark:text-gray-400 text-left font-light text-justify pl-12 ">
             {" "}
-            where participants are required to implement the material they have learned directly through projects and tasks that need to be completed to finish each module.
+            Where participants are required to implement the material they have learned directly through projects and tasks that need to be completed to finish each module.
           </p>
           <p className="font-tentang text-md text-gray-500 dark:text-gray-400 text-left font-light text-justify pl-12 mt-3 ">
             {" "}
@@ -422,7 +421,7 @@ The learning process involves a combination of:
           </p>
           <p className="font-tentang text-md text-gray-500 dark:text-gray-400 text-left font-light text-justify pl-12 ">
             {" "}
-            where participants are required to attend face-to-face sessions such as Instructor-Led Training, Soft Skill Sessions, English Learning, Study Groups, Guest Speaker Sessions, and more.
+            Where participants are required to attend face-to-face sessions such as Instructor-Led Training, Soft Skill Sessions, English Learning, Study Groups, Guest Speaker Sessions, and more.
           </p>
 
           <p className="font-tentang text-md text-gray-500 dark:text-gray-400 text-left font-light text-justify pl-12 mt-3 ">
