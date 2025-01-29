@@ -265,7 +265,7 @@ const Candidates = () => {
             alt="Gambar Pengumuman Offering SIB"
             className="w-full h-auto object-cover pl-6"
           />
-          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic">
+          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic pl-6">
           Announcement of SIB Offering – Passed Bangkit 2024 (Batch 2)
           </figcaption>
           <p className="font-tentang text-md text-gray-500 dark:text-gray-400 text-left font-light text-justify pl-6 mt-5 mb-5 ">
@@ -296,7 +296,7 @@ const Candidates = () => {
             alt="Gambar Pengumuman Offering SIB"
             className="w-full h-auto object-cover pl-6"
           />
-          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic mb-10">
+          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic mb-10 pl-6">
           Bangkit 2024 (Batch 2) Registration Stages
           </figcaption>
           <img
@@ -304,7 +304,7 @@ const Candidates = () => {
             alt="Gambar Pengumuman Offering SIB"
             className="w-full h-auto object-cover pl-6"
           />
-          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic mb-10">
+          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic mb-10 pl-6">
             Website Bangkit Academy
           </figcaption>
           <img
@@ -312,7 +312,7 @@ const Candidates = () => {
             alt="Gambar Pengumuman Offering SIB"
             className="w-full h-auto object-cover pl-6"
           />
-          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic">
+          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic pl-6">
             Application Proccess Section
           </figcaption>
           <p className="font-tentang text-md text-gray-500 dark:text-gray-400 text-left font-light text-justify pl-6 mt-6 ">
@@ -324,7 +324,7 @@ const Candidates = () => {
             alt="Gambar Pengumuman Offering SIB"
             className="w-full h-auto object-cover pl-6 mt-5"
           />
-          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic">
+          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic pl-6">
             Registration Checkpoint
           </figcaption>
 
@@ -366,7 +366,7 @@ const Candidates = () => {
             alt="Gambar Pengumuman Offering SIB"
             className="w-full h-auto object-cover pl-6 mt-5"
           />
-          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic">
+          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic pl-6">
             Last Step Registration Bangkit 2024 (Batch 2)
           </figcaption>
 
@@ -399,7 +399,7 @@ The learning process involves a combination of:
             alt="Gambar Pengumuman Offering SIB"
             className="w-full h-auto object-cover pl-12 mt-5"
           />
-          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic">
+          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic pl-6">
             Self Paced Platform Coursera
           </figcaption>
           <p className="font-tentang text-md text-gray-500 dark:text-gray-400 text-left font-light text-justify pl-12 mt-10 ">
@@ -411,7 +411,7 @@ The learning process involves a combination of:
             alt="Gambar Pengumuman Offering SIB"
             className="w-full h-auto object-cover pl-12 mt-5"
           />
-          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic">
+          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic pl-6">
             Self Paced Platform Dicoding
           </figcaption>
 
@@ -447,7 +447,7 @@ The learning process involves a combination of:
             alt="ILT Machine Learning"
             className="w-full h-auto object-cover pl-24 mt-1"
           />
-          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic">
+          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic pl-6">
             Sesi ILT Machine Learning 
           </figcaption>
 
@@ -482,7 +482,7 @@ The learning process involves a combination of:
             alt="ILT Machine Learning"
             className="w-full h-auto object-cover pl-24 mt-1"
           />
-          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic">
+          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic pl-6">
             Sesi ILT Soft Skill
           </figcaption>
 
@@ -512,7 +512,7 @@ The learning process involves a combination of:
             alt="ILT Machine Learning"
             className="w-full h-auto object-cover pl-24 mt-1"
           />
-          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic">
+          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic pl-6">
             Sesi ILT English
           </figcaption>
 
@@ -548,7 +548,7 @@ The learning process involves a combination of:
             alt="Weekly Consultation 9"
             className="w-full h-auto object-cover pl-14 mt-1"
           />
-          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic">
+          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic pl-6">
             Sesi Weekly Consultation
           </figcaption>
 
@@ -590,7 +590,7 @@ The learning process involves a combination of:
             alt="Company Exposes Melalui Youtube"
             className="w-full h-auto object-cover pl-14 mt-1"
           />
-          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic">
+          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic pl-6">
             Company Exposes Through Youtube
           </figcaption>
 
@@ -612,7 +612,7 @@ This app aims to empower individuals, especially those in vulnerable communities
             alt="Company Exposes Melalui Youtube"
             className="w-full h-auto object-cover pl-14 mt-1"
           />
-          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic">
+          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic pl-6">
             Project Capstone Bangkit 2024 (Batch 2) Application
           </figcaption>
 
@@ -623,7 +623,7 @@ This app aims to empower individuals, especially those in vulnerable communities
             alt="Company Exposes Melalui Youtube"
             className="w-full h-auto object-cover pl-14 mt-6"
           />
-          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic">
+          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic pl-6">
             Peer Review Session
           </figcaption>
 
@@ -632,7 +632,7 @@ This app aims to empower individuals, especially those in vulnerable communities
             alt="Company Exposes Melalui Youtube"
             className="w-full h-auto object-cover pl-14 mt-7"
           />
-          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic">
+          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic pl-6">
             Persentation Session
           </figcaption>
 
@@ -660,7 +660,7 @@ This app aims to empower individuals, especially those in vulnerable communities
             alt="Weekly Consultation 9"
             className="w-full h-auto object-cover pl-6 mt-1"
           />
-          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic">
+          <figcaption className="mt-2 text-center text-xs font-light text-gray-400 dark:text-gray-500 font-light italic pl-6">
             Meet Team Capstone Project
           </figcaption>
 
