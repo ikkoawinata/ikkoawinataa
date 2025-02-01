@@ -298,9 +298,6 @@ const posts = [
     marketingTags: ["Bootstrap","MSQL"], // Menambahkan tag marketing sebagai contoh
   },
 
-  ];
-
-const design = [
   {
     id: 13,
     title: "PROTECT YOUR PRIVACY IF YOU WANNA ALIVE",
@@ -318,6 +315,7 @@ const design = [
     },
     marketingTags: ["CorelDRAW"], // Menambahkan tag marketing sebagai contoh
   },
+
   {
     id: 14,
     title: "3rd Place in Infographic Challenge",
@@ -369,26 +367,98 @@ const design = [
     },
     marketingTags: ["CorelDRAW"], // Menambahkan tag marketing sebagai contoh
   },
-   {
-    id: 31,
-    title: "Design Carousel Jus D-Tox",
-    href: "./design5",
-    description:
-      "Designed and created visual content for a case study project under PT Digimarly Solusi Digital, focusing on graphic design aligned with the guidelines (S&K) for case study work",
-    date: "2025",
-    datetime: "2025-01 -12",
-    category: { title: "More", href: "./design5" },
-    author: {
-      name: "Michael Foster",
-      role: "Co-Founder / CTO",
-      href: "",
-      imageUrl: "./hero/port5.jpeg", // Gambar placeholder
-    },
-    marketingTags: ["CorelDraw"], // Menambahkan tag marketing sebagai contoh
-  },
+
+  ];
+
+// const design = [
+//   {
+//     id: 13,
+//     title: "PROTECT YOUR PRIVACY IF YOU WANNA ALIVE",
+//     href: "./design1",
+//     description:
+//       'Cyber Security Competition Activities in 2022 with the theme "Protect Your Privacy For Millennial Generation" organized by the Informatics Engineering Student Association Faculty of Engineering, Surabaya State University',
+//     date: "2022",
+//     datetime: "2022-06-25",
+//     category: { title: "More", href: "./design1" },
+//     author: {
+//       name: "Michael Foster",
+//       role: "Co-Founder / CTO",
+//       href: "",
+//       imageUrl: "./hero/port1.jpeg", // Gambar placeholder
+//     },
+//     marketingTags: ["CorelDRAW"], // Menambahkan tag marketing sebagai contoh
+//   },
+//   {
+//     id: 14,
+//     title: "3rd Place in Infographic Challenge",
+//     href: "./design2",
+//     description:
+//       "Organized by the GEMA UNESA Campus Press Institute with the theme Take Your Infographic to the Next Level with Illustrations",
+//     date: "2022",
+//     datetime: "2022-06-25",
+//     category: { title: "More", href: "./design2" },
+//     author: {
+//       name: "Michael Foster",
+//       role: "Co-Founder / CTO",
+//       href: "",
+//       imageUrl: "./hero/port3.jpeg", // Gambar placeholder
+//     },
+//     marketingTags: ["CorelDRAW"], // Menambahkan tag marketing sebagai contoh
+//   },
+//   {
+//     id: 15,
+//     title: "Perkembangan Teknologi Informasi Era Digital 5.0",
+//     href: "./design3",
+//     description:
+//       'Graphic Design Training Activities with the theme "Explore Your Passion, Build Your Imagination with Your Design Creation", organized by the Science Department Student Association, Faculty of Mathematics and Natural Sciences, Surabaya State University',
+//     date: "2022",
+//     datetime: "2022-06-25",
+//     category: { title: "More", href: "./design3" },
+//     author: {
+//       name: "Michael Foster",
+//       role: "Co-Founder / CTO",
+//       href: "",
+//       imageUrl: "./hero/port2.jpeg", // Gambar placeholder
+//     },
+//     marketingTags: ["CorelDRAW"], // Menambahkan tag marketing sebagai contoh
+//   },
+//   {
+//     id: 16,
+//     title: "Lestarikan Alam Hijau Untuk Masa Depan Bumi Kita ",
+//     href: "./design4",
+//     description:
+//       "Graphic Design Webinar Activity organized by IMJ UNESA (Jombang Student Association, Surabaya State University)",
+//     date: "2022",
+//     datetime: "2022-06-25",
+//     category: { title: "More", href: "./design4" },
+//     author: {
+//       name: "Michael Foster",
+//       role: "Co-Founder / CTO",
+//       href: "",
+//       imageUrl: "./hero/port4.jpg", // Gambar placeholder
+//     },
+//     marketingTags: ["CorelDRAW"], // Menambahkan tag marketing sebagai contoh
+//   },
+//    {
+//     id: 31,
+//     title: "Design Carousel Jus D-Tox",
+//     href: "./design5",
+//     description:
+//       "Designed and created visual content for a case study project under PT Digimarly Solusi Digital, focusing on graphic design aligned with the guidelines (S&K) for case study work",
+//     date: "2025",
+//     datetime: "2025-01 -12",
+//     category: { title: "More", href: "./design5" },
+//     author: {
+//       name: "Michael Foster",
+//       role: "Co-Founder / CTO",
+//       href: "",
+//       imageUrl: "./hero/port5.jpeg", // Gambar placeholder
+//     },
+//     marketingTags: ["CorelDraw"], // Menambahkan tag marketing sebagai contoh
+//   },
 
   
-];
+// ];
 
 
 const blog = [
@@ -649,12 +719,12 @@ export default function Example() {
                   >
                     Blog
                   </Button>
-                  <Button
+                  {/* <Button
                     className={`button ${activeSection === "photos" ? "active" : ""}`}
                     onClick={() => handleButtonClick("photos")}
                   >
                     Design
-                  </Button>
+                  </Button> */}
                   <Button
                     className={`button ${activeSection === "photography" ? "active" : ""}`}
                     onClick={() => handleButtonClick("photography")}
