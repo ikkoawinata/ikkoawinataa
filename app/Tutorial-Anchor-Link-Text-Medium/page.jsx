@@ -175,7 +175,7 @@ const Candidates = () => {
           
 
           <p className="font-tentang text-md text-gray-500 dark:text-gray-200 text-left font-bold text-justify mt-10 ">
-            8. The Eight Step : 
+            8. The Eighth Step : 
           </p>
           <p className="font-tentang text-md text-gray-500 dark:text-gray-400 text-left text-justify pl-6 ">
           After applying the Anchor Link to the word or sentence, the text will be underlined and will link to the intended destination.
