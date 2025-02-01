@@ -295,7 +295,7 @@ const posts = [
       href: "",
       imageUrl: "./hero/crud1.jpeg", // Gambar placeholder
     },
-    marketingTags: ["Bootstrap","MSyQL"], // Menambahkan tag marketing sebagai contoh
+    marketingTags: ["Bootstrap","MSQL"], // Menambahkan tag marketing sebagai contoh
   },
 
   ];
@@ -403,7 +403,19 @@ const blog = [
     category: { title: "Read More", href: "./Pengalaman-MSIB-Bangkit" },
     author: {
     }
+    },
+  {
+    // id: 32,
+    title: "Tutorial on Anchor Links Text in Medium Platform with Ease", 
+    // href: "./design1",
+    description:
+      'Want to create an Anchor Link on Medium so readers can jump directly to a specific section of your article? Here are some easy steps! Pay close attention and read carefully.',
+    date: "31 January 2025",
+    datetime: "",
+    category: { title: "Read More", href: "./Tutorial-Anchor-Link-Text-Medium" },
+    author: {
     }
+    },
 ];
 
 

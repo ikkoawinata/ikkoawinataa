@@ -681,7 +681,7 @@ Based on information from Bangkit's partners, next semester, which is Semester G
 
           
   <hr className="border-t border-gray-300 dark:border-gray-600 my-6" />
-  <p className="font-tentang text-md text-gray-500 dark:text-gray-400 text-left font-light text-justifymt-10">
+  <p className="font-tentang text-md text-gray-500 dark:text-gray-400 text-left font-light text-justify mt-10">
   Alright, that’s all I have to share about my experience this time. I know there might be some shortcomings or mistakes in this post, so I hope you can understand. I really hope what I’ve written can be useful for all of you, especially for those who need insights or references. Thanks for reading until the end!
   </p>
   <p className="font-tentang text-md text-gray-500 dark:text-gray-400 text-left font-light text-justify mt-1">

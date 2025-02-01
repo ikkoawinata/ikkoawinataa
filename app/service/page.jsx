@@ -203,7 +203,7 @@ function Services() {
           </div>
 
           {/* Teks di sebelah kanan atau di bawah pada breakpoints kecil */}
-          <div className="font-tentang flex-auto p-2 mt-6 lg:mt-0 relative text-gray-700">
+          <div className="font-tentang flex-auto p-2 mt-6 lg:mt-0 relative text-gray-700 dark:text-white">
             <p className="mb-3 text-sm text-justify">
               We would like to convey to you that I provide services that can
               provide solutions to your various needs.
@@ -217,7 +217,7 @@ function Services() {
             </p>
             <div>
               <p className="font-bold text-md">Author</p>
-              <p className="text-xl">AwinataX.</p>
+              <p className="text-xl">Ikko Awinata</p>
             </div>
 
             <div className="absolute left-1/2 bottom-10 transform -translate-x-1/2 animate-bounce">
