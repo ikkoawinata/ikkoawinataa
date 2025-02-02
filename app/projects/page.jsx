@@ -14,6 +14,40 @@ import Kartu from "@/components/Kartu";
 
 const posts = [
   {
+    id: 30,
+    title: "Design Carousel Jus D-Tox",
+    href: "./design5",
+    description:
+      "Designed and created visual content for a case study project under PT Digimarly Solusi Digital, focusing on graphic design aligned with the guidelines (S&K) for case study work",
+    date: "2025",
+    datetime: "2025-01 -12",
+    category: { title: "More", href: "./design5" },
+    author: {
+      name: "Michael Foster",
+      role: "Co-Founder / CTO",
+      href: "",
+      imageUrl: "./hero/port5.jpeg", // Gambar placeholder
+    },
+    marketingTags: ["CorelDraw"], // Menambahkan tag marketing sebagai contoh
+  },
+  {
+    id: 33,
+    title: "Fat Track (Food Analysis Tool for Tracking Calories and Carbohydrates)",
+    href: "./project-bangkit",
+    description:
+      'Fat Track is an AI-based application that helps users monitor their daily food content by recognizing images of food captured by the user and displaying the nutritional content of the food. Fat Track will display information such as calories, protein, fat, and carbohydrates of the food, which will then be stored to track the nutritional intake of the users daily meals',
+    date: "2024",
+    datetime: "2022-06-25",
+    category: { title: "More", href: "./project-bangkit" },
+    author: {
+      name: "Michael Foster",
+      role: "Co-Founder / CTO",
+      href: "",
+      imageUrl: "./hero/bangkitp.jpeg", // Gambar placeholder
+    },
+    marketingTags: ["TensorFlow","Kotlin", "FastAPI", "Firebase", "NodeJS", "Google Cloud Platform", "HapiJS", "AndroidJetpack", "JUnit", "Retrofit"], // Menambahkan tag marketing sebagai contoh
+  },
+  {
     id: 1,
     title: " Design Personal Website (AwinataX.)",
     href: "https://www.behance.net/gallery/198229151/Personal-Website-(AwinataX)",
@@ -194,40 +228,7 @@ const posts = [
     },
     marketingTags: ["Bootstrap"], // Menambahkan tag marketing sebagai contoh
   },
-  {
-    id: 10,
-    title: "Computer Network",
-    href: "./computernetwork",
-    description:
-      "In this project, I designed a school computer network that covers 11 rooms using Cisco Packet Tracer. This project combines various network topologies to ensure optimal connectivity throughout the school area. Each room, including the computer lab, teachers room, administration room, and classrooms, is connected through a combination of star, bus, and mesh topologies. This infrastructure is designed to support various network services such as FTP, DNS, and DHCP",
-    date: "2023",
-    datetime: "2024-08  -10",
-    category: { title: "More", href: "./computernetwork" },
-    author: {
-      name: "Michael Foster",
-      role: "Co-Founder / CTO",
-      href: "",
-      imageUrl: "./hero/jaringan.jpeg", // Gambar placeholder
-    },
-    marketingTags: ["Cisco Packet Tracer"], // Menambahkan tag marketing sebagai contoh
-  },
-  {
-    id: 11,
-    title: "First Personal Website",
-    href: "https://awinatax.vercel.app/",
-    description:
-      "Build a simple first landing page website project using the Bootstrap framework",
-    date: "2023",
-    datetime: "2024-08  -10",
-    category: { title: "More", href: "https://awinatax.vercel.app/" },
-    author: {
-      name: "Michael Foster",
-      role: "Co-Founder / CTO",
-      href: "https://awinatax.vercel.app/",
-      imageUrl: "./hero/web1.png", // Gambar placeholder
-    },
-    marketingTags: ["Bootstrap"], // Menambahkan tag marketing sebagai contoh
-  },
+  
   {
     id: 12,
     title: "Second Personal Website Development",
@@ -263,22 +264,42 @@ const posts = [
     marketingTags: ["Reactjs", "Tailwind"], // Menambahkan tag marketing sebagai contoh
   },
 
+
   {
-    id: 30,
-    title: "Design Carousel Jus D-Tox",
-    href: "./design5",
+    id: 10,
+    title: "Computer Network",
+    href: "./computernetwork",
     description:
-      "Designed and created visual content for a case study project under PT Digimarly Solusi Digital, focusing on graphic design aligned with the guidelines (S&K) for case study work",
-    date: "2025",
-    datetime: "2025-01 -12",
-    category: { title: "More", href: "./design5" },
+      "In this project, I designed a school computer network that covers 11 rooms using Cisco Packet Tracer. This project combines various network topologies to ensure optimal connectivity throughout the school area. Each room, including the computer lab, teachers room, administration room, and classrooms, is connected through a combination of star, bus, and mesh topologies. This infrastructure is designed to support various network services such as FTP, DNS, and DHCP",
+    date: "2023",
+    datetime: "2024-08  -10",
+    category: { title: "More", href: "./computernetwork" },
     author: {
       name: "Michael Foster",
       role: "Co-Founder / CTO",
       href: "",
-      imageUrl: "./hero/port5.jpeg", // Gambar placeholder
+      imageUrl: "./hero/jaringan.jpeg", // Gambar placeholder
     },
-    marketingTags: ["CorelDraw"], // Menambahkan tag marketing sebagai contoh
+    marketingTags: ["Cisco Packet Tracer"], // Menambahkan tag marketing sebagai contoh
+  },
+
+
+  {
+    id: 11,
+    title: "First Personal Website",
+    href: "https://awinatax.vercel.app/",
+    description:
+      "Build a simple first landing page website project using the Bootstrap framework",
+    date: "2023",
+    datetime: "2024-08  -10",
+    category: { title: "More", href: "https://awinatax.vercel.app/" },
+    author: {
+      name: "Michael Foster",
+      role: "Co-Founder / CTO",
+      href: "https://awinatax.vercel.app/",
+      imageUrl: "./hero/web1.png", // Gambar placeholder
+    },
+    marketingTags: ["Bootstrap"], // Menambahkan tag marketing sebagai contoh
   },
   {
     id: 32,
@@ -366,7 +387,7 @@ const posts = [
       imageUrl: "./hero/port4.jpg", // Gambar placeholder
     },
     marketingTags: ["CorelDRAW"], // Menambahkan tag marketing sebagai contoh
-  },
+  }
 
   ];
 
