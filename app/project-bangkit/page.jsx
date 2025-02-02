@@ -354,23 +354,18 @@ const Candidates = () => {
           <div className="grid grid-cols-2 gap-4 items-start">
   {/* Kolom 1 - Train and Val Loss */}
   <div>
-    <p className="font-tentang text-md text-gray-500 dark:text-white text-left text-justify pl-12">
-      1. Splashscreen
-    </p>
+
     <img
       src="./hero/screenshot1.jpg"
       alt="Splashscreen"
       className="w-full h-auto object-cover mb-2 pl-12"
     />
-    <figcaption className="mt-1 text-xs font-light text-gray-400 dark:text-gray-500 italic pl-24">
-      [Figure 4. Splashscreen]
+    <figcaption className="mt-1 text-center text-xs font-light text-gray-400 dark:text-gray-500 italic pl-12">
+      [Figure 4. Opening Page]
     </figcaption>
   </div>
 
   <div>
-    <p className="font-tentang text-md text-gray-500 dark:text-white text-left text-justify pl-12">
-      2. Sign In & Sign Up Page
-    </p>
     <img
       src="./hero/screenshot2.jpg"
       alt="Gambar Train Accuracy"
@@ -386,9 +381,6 @@ const Candidates = () => {
 
  
   <div>
-    <p className="font-tentang text-md text-gray-500 dark:text-white text-left text-justify pl-12">
-      3. Home Page & Article Page
-    </p>
     <img
       src="./hero/screenshot3.jpg"
       alt="Gambar Train Accuracy"
@@ -400,9 +392,6 @@ const Candidates = () => {
   </div>
 
   <div>
-    <p className="font-tentang text-md text-gray-500 dark:text-white text-left text-justify pl-12">
-      4. Predict Image & Chatbot
-    </p>
     <img
       src="./hero/screenshot4.jpg"
       alt="Gambar Train Accuracy"
@@ -416,9 +405,6 @@ const Candidates = () => {
 
 
   <div>
-    <p className="font-tentang text-md text-gray-500 dark:text-white text-left text-justify pl-12">
-      5. Profile & Forgot Password
-    </p>
     <img
       src="./hero/screenshot5.jpg"
       alt="Gambar Train Accuracy"
@@ -430,9 +416,6 @@ const Candidates = () => {
   </div>
 
   <div>
-    <p className="font-tentang text-md text-gray-500 dark:text-white text-left text-justify pl-12">
-      6. Dashboard (Daily & Weekly)
-    </p>
     <img
       src="./hero/screenshot6.jpg"
       alt="Gambar Train Accuracy"
