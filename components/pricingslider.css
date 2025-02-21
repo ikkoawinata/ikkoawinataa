@@ -1,0 +1,82 @@
+.bg-hero {
+  background-image: url(/hero/wave-bg.png);
+}
+
+
+
+:root {
+  --primary-foreground: 223, 84, 5; /* Nilai RGB untuk warna */
+}
+
+
+
+
+
+.button-group {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .button {
+    padding: 0.5rem 1rem;
+    border-radius: 9999px; /* Fully rounded */
+    border: 2px solid transparent; /* Default border */
+    background-color: transparent;
+    color: #4a4a4a; /* Default text color */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .button.active {
+    background-color: #2c3e50; /* Background color for active state */
+    color: #ffffff; /* Text color for active state */
+    border-color: #fffdcf; /* Border color for active state */
+  }
+  
+  .button:hover {
+    background-color: rgba(29, 78, 216, 0.1); /* Light blue background on hover */
+    color: #1d4ed8; /* Text color on hover */
+    border-color: #1d4ed8; /* Border color on hover */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+  }
+  
+  .button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(29, 78, 216, 0.4); /* Focus outline */
+  }
+  
+  .font-tentang {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+  
+
+
+
+  .card-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card-image {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card-container:hover .card-image {
+    transform: scale(1.05); /* Scales the image slightly to create a pop effect */
+  }
+  
+  .card-container.selected .card-image {
+    transform: scale(1.1); /* Makes the image pop more when selected */
+  }
+
+  .dark\:bg-primary-foreground:is(.dark *) {
+    background-color: hsl(var(--primary-foreground));
+  }
+
+  
+
+  .text-yellow-600 {
+    --tw-text-opacity: 1;
+    color: rgba(165, 157, 110, 1); /* Equivalent to #a59d6e */
+}
+

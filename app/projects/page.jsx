@@ -19,16 +19,16 @@ const posts = [
     href: "./des",
     description:
       "Coming Soon......",
-    date: "2025",
+    date: "",
     datetime: "",
-    category: { title: "More", href: "" },
+    category: { title: "", href: "" },
     author: {
       name: "Michael Foster",
       role: "Co-Founder / CTO",
       href: "",
       imageUrl: "./hero/COMING.png", // Gambar placeholder
     },
-    marketingTags: ["CorelDraw"], // Menambahkan tag marketing sebagai contoh
+    // marketingTags: ["CorelDraw"],
   },
   {
     id: 30,
