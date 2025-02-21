@@ -231,21 +231,25 @@ function Services() {
             <div className="absolute left-1/2 bottom-10 transform -translate-x-1/2 animate-bounce">
               <RiArrowDownSLine className="text-3xl text-primary dark:text-primary-dark" />
             </div>
+            
           </div>
+         
         </div>
       </div>
 
-
-
-
-
+                
 {/* TESTIMONI (Proof of Order) */}
-<div className="py-16 bg-orange-50 dark:bg-gray-800 rounded-bl-[100px] rounded-br-[100px]">
+<div className="py-16 bg-orange-50 dark:bg-transparent rounded-bl-[100px] rounded-br-[100px]">
   
-
-    {/* Gunakan PricingSlider */}
-    <PricingSlider />
+ <PricingSlider />
+    
+    
   </div>
+
+
+
+
+
 
 
 

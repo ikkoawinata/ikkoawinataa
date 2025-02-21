@@ -67,4 +67,10 @@
     background-color: hsl(var(--primary-foreground));
   }
 
-  
+
+
+  .dark\:bg-primary-foreground:is(.dark *) {
+    background-color:  0 2px 8px rgba(0, 0, 0, 0.2);}
+
+
+    /* 0 2px 8px rgba(0, 0, 0, 0.2);  */

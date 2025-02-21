@@ -14,6 +14,23 @@ import Kartu from "@/components/Kartu";
 
 const posts = [
   {
+    id: 34,
+    title: "COMING SOON",
+    href: "./des",
+    description:
+      "Coming Soon......",
+    date: "2025",
+    datetime: "",
+    category: { title: "More", href: "" },
+    author: {
+      name: "Michael Foster",
+      role: "Co-Founder / CTO",
+      href: "",
+      imageUrl: "./hero/COMING.png", // Gambar placeholder
+    },
+    marketingTags: ["CorelDraw"], // Menambahkan tag marketing sebagai contoh
+  },
+  {
     id: 30,
     title: "Design Carousel Jus D-Tox",
     href: "./design5",
