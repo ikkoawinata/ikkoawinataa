@@ -485,18 +485,6 @@ const posts = [
 const blog = [
   {
     // id: 32,
-    title: "Starting New Journey as Machine Learning Cohort at Bangkit Academy 2024 (Batch 2)", 
-    // href: "./design1",
-    description:
-      'Hello... Through this article, I would like to share my experience as one of the participants in the Machine Learning Cohort of the Certified Independent Study Program (MSIB 7) Bangkit Academy 2024 (Batch 2).',
-    date: "29 January 2025",
-    datetime: "",
-    category: { title: "Read More", href: "./Pengalaman-MSIB-Bangkit" },
-    author: {
-    }
-    },
-  {
-    // id: 32,
     title: "Tutorial on Anchor Links Text in Medium Platform with Ease", 
     // href: "./design1",
     description:
@@ -504,6 +492,18 @@ const blog = [
     date: "31 January 2025",
     datetime: "",
     category: { title: "Read More", href: "./Tutorial-Anchor-Link-Text-Medium" },
+    author: {
+    }
+    },
+  {
+    // id: 32,
+    title: "Starting New Journey as Machine Learning Cohort at Bangkit Academy 2024 (Batch 2)", 
+    // href: "./design1",
+    description:
+      'Hello... Through this article, I would like to share my experience as one of the participants in the Machine Learning Cohort of the Certified Independent Study Program (MSIB 7) Bangkit Academy 2024 (Batch 2).',
+    date: "29 January 2025",
+    datetime: "",
+    category: { title: "Read More", href: "./Pengalaman-MSIB-Bangkit" },
     author: {
     }
     },

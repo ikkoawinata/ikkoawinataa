@@ -186,12 +186,20 @@ import { RiArrowDownSLine } from "react-icons/ri";
 import { Button } from "@/components/ui/button"; // Adjust import path if necessary
 import { motion } from "framer-motion";
 import "./styles.css"; // Import the CSS file
+import PricingSlider from "@/components/PricingSlider.jsx"; // Sesuaikan dengan lokasi file
+
 
 function Services() {
   return (
     <div>
       {/* Existing section */}
-      <div className="relative flex justify-center items-center min-h-[90vh] bg-orange-50 dark:bg-primary-foreground text-black dark:text-white">
+      <div className=" relative flex justify-center items-center min-h-[90vh] bg-orange-50 dark:bg-primary-foreground text-black dark:text-white">
+
+
+
+
+    {/* GRADAAAAADAAAAAASSSSSIIIIIIIIIIIII */}
+      {/* <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-orange-200 to-transparent dark:from-primary dark:to-transparent"></div> */}
         <div className="flex flex-col lg:flex-row w-full max-w-3xl p-4">
           {/* Gambar di sebelah kiri atau di atas pada breakpoints kecil */}
           <div className="flex-none w-full lg:w-1/2 p-2">
@@ -226,6 +234,35 @@ function Services() {
           </div>
         </div>
       </div>
+
+
+
+
+
+{/* TESTIMONI (Proof of Order) */}
+<div className="py-16 bg-orange-50 dark:bg-gray-800 rounded-bl-[100px] rounded-br-[100px]">
+  
+
+    {/* Gunakan PricingSlider */}
+    <PricingSlider />
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       {/* Services section: Stacked list layout */}
       <div className=" font-tentang py-16 bg-white dark:bg-gray-800">
@@ -384,7 +421,8 @@ function Services() {
       </div>
 
       {/* Services ONLINE TYPING: Stacked list layout */}
-      <div className=" font-tentang py-16 pt-10 bg-orange-50 dark:bg-gray-950">
+      <div className="rounded-bl-[100px] rounded-tr-[100px]
+ font-tentang py-16 pt-10 bg-orange-50 dark:bg-gray-950">
         <div className="w-full max-w-6xl mx-auto px-4">
           <h2 className=" font-serif text-3xl font-bold text-start mb-6 text-black dark:text-white">
             Online Typing Services
@@ -592,7 +630,18 @@ function Services() {
         </div>
       </div>
     </div>
+
+
+
+
+
+
   );
+
+
+
+
+  
 }
 
 export default Services;
