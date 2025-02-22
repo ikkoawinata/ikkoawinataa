@@ -109,9 +109,11 @@ export default function ImageSlider() {
   return (
     <div className="font-tentang py-10 flex flex-col items-center text-black dark:text-white">
       {/* Judul */}
-      <h2 className=" font-serif text-3xl font-bold text-start mb-6 text-black dark:text-white">
+      <div className="w-full max-w-6xl mx-auto px-4">
+          <h2 className=" font-serif text-3xl font-bold text-start mb-6 text-black dark:text-white">
             Proof of Order by Customer
           </h2>
+          </div>
 
       {/* Container Slider */}
       <div className="relative w-full max-w-4xl">
