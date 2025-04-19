@@ -610,8 +610,8 @@ function Services() {
               {/* Teks di sebelah kanan atau di bawah pada breakpoints kecil */}
               <div className=" font-tentangflex-auto p-2 mt-6 lg:mt-0 relative items-center">
                 <p className="mx-auto text-lg text-justify">
-                  Payment can be made via BCA, Dana, Ovo, Gopay, Linkaja,
-                  ShopeePay and
+                  Services I offer Digital Services (include: typing, photo editing, design, making PPT, etc) credit sales, and
+                  E-Wallet top-up.
                 </p>
                 <div>
                   <img src="./hero/byr.png" alt="" className="w-full mt-14" />
@@ -624,9 +624,9 @@ function Services() {
                 </Button>
                 <Button
                   className="mt-4 px-2 py-1 bg-primary text-white rounded-xl transition transform group-hover:scale-105"
-                  href="https://ikkoawinatacell.carrd.co/"
+                  href="http://linktr.ee/ikkoawinatacell"
                 >
-                  <a href="https://ikkoawinatacell.carrd.co/">Cek Paket Data</a>
+                  <a href="http://linktr.ee/ikkoawinatacell/">Cek Semua Produk</a>
                 </Button>
               </div>
             </div>
