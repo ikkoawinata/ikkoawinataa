@@ -787,6 +787,33 @@ const BrandingSection = () => {
         </tr>
       </thead>
       <tbody>
+
+
+            <tr>
+    <td className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+    March 2025 – Present 
+    </td>
+    <td className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+    Ads Creative Video Intern – Pubmedia Project 
+    </td>
+    <td
+      className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-500 dark:text-gray-100 underline"
+      rowSpan={2}
+    >
+     <a href="https://www.linkedin.com/posts/rafihakim12_pt-renjana-sinergi-indonesia-adalah-perusahaan-activity-7192670234678288385-fQj4/" className="black">PT. Renjana Sinergi Indonesia</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+                    January 2025 – March 2025  
+    </td>
+    <td className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+               Ads Creative – Serena Hills Puncak Project
+    </td>
+  </tr>
+
+          
         {/* Baris Pertama */}
         <tr>
           <td className=" font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
