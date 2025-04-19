@@ -797,7 +797,7 @@ const BrandingSection = () => {
     Ads Creative Video Intern – Pubmedia Project 
     </td>
     <td
-      className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-500 dark:text-gray-4 underline"
+      className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-500 dark:text-gray-400 underline"
       rowSpan={2}
     >
      <a href="https://www.linkedin.com/posts/rafihakim12_pt-renjana-sinergi-indonesia-adalah-perusahaan-activity-7192670234678288385-fQj4/" className="black">PT. Renjana Sinergi Indonesia</a>
