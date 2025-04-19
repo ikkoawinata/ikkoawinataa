@@ -217,7 +217,7 @@ function Services() {
               provide solutions to your various needs.
             </p>
             <p className="mb-4 text-sm text-justify">
-              Services I offer include typing, photo editing, credit sales, and
+               Services I offer Digital Services (include: typing, photo editing, design, making PPT, etc) credit sales, and
               E-Wallet top-up.
             </p>
             <p className="mb-8 text-sm text-justify">
