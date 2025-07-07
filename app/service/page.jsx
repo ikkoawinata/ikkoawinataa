@@ -223,16 +223,24 @@ function Services() {
             <p className="mb-8 text-sm text-justify">
               Thank you for your attention
             </p>
-            <div>
+             <div>
               <p className="font-bold text-md">Author</p>
-              <p className="text-xl">Ikko Awinata</p>
+              <p className="text-xl mb-4">Ikko Awinata Cell</p> {/* Tambahkan margin-bottom di sini */}
+              
+              {/* TOMBOL START PROJECT BARU */}
+              <Button asChild className=" bg-amber-300 text-gray-900 font-bold uppercase flex items-center gap-x-2">
+                <a href="https://ikkoawinatacell.vercel.app/"> {/* Ganti "/contact" dengan link yang Anda inginkan */}
+                  Start a project
+                </a>
+              </Button>
             </div>
 
-            <div className="absolute left-1/2 bottom-10 transform -translate-x-1/2 animate-bounce">
+           
+          </div>
+           <div className="absolute left-1/2 bottom-10 transform -translate-x-1/2 animate-bounce">
               <RiArrowDownSLine className="text-3xl text-primary dark:text-primary-dark" />
             </div>
             
-          </div>
          
         </div>
       </div>
@@ -268,7 +276,7 @@ function Services() {
 
 
 
-      {/* Services section: Stacked list layout */}
+     {/* Services section: Stacked list layout */}
       <div className=" font-tentang py-16 bg-white dark:bg-gray-800">
         <div className="w-full max-w-6xl mx-auto px-4">
           <h2 className=" font-serif text-3xl font-bold text-start mb-6 text-black dark:text-white">
@@ -289,11 +297,11 @@ function Services() {
 
               <div className="p-6 flex-1">
                 <h3 className="text-lg font-bold text-gray-800 dark:text-gray-200 mb-3">
-                  Change color *tie only (IDR. 7000) / change color *suit only
-                  (IDR. 7000) / change color *suit+tie (IDR. 12000)
+                  Change color *tie only (IDR. 10.000) / change color *suit only
+                  (IDR. 10.000) / change color *suit+tie (IDR. 12.000)
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
-                  - The final result is in JPEG/PNG format
+                  - The final result is in JPEG/JPG/PNG format
                 </p>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                   - Maximum revision 1x *Additional fees will apply if the
@@ -324,15 +332,19 @@ function Services() {
               />
               <div className=" font-tentang p-6 flex-1">
                 <h3 className="text-lg font-bold text-gray-800 dark:text-gray-200 mb-3">
-                  Photo Edit Wear Almameter Jacket Only (22k) or Change Clothes
-                  Color, Hijab and others (17k)
+                  Photo Edit Wear Almameter Jacket Only (IDR. 22.000) or Change Clothes
+                  Color, Hijab and others (IDR. 17.000)
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
-                  - The final result is in JPEG/PNG format
+                  - The final result is in JPEG/JPG/PNG format
                 </p>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                   - Maximum revision 1x *Additional fees will apply if the
                   maximum limit is exceeded
+                </p>
+                <p className="text-sm text-gray-600 dark:text-gray-400">
+                  - Processing time -+1 hour (Depending on the complexity of the
+                  image)
                 </p>
                 <Button className="mt-4 px-3 py-2 bg-primary text-white rounded-xl transition transform group-hover:scale-105">
                   <a href="https://wa.link/9qx738">Chat</a>
@@ -349,10 +361,10 @@ function Services() {
               />
               <div className="p-6 flex-1">
                 <h3 className="text-lg font-bold text-gray-800 dark:text-gray-200 mb-3">
-                  Change photo size ( IDR. 7,000 / photo)
+                  Change photo size (IDR. 7.000 / photo)
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
-                  - The final result is in JPEG/PNG format
+                  - The final result is in JPEG/JPG/PNG format
                 </p>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                   - Result is 1 photo if the size is 4x6 (you get 5) in the form
@@ -377,14 +389,14 @@ function Services() {
               />
               <div className="p-6 flex-1">
                 <h3 className="text-lg font-bold text-gray-800 dark:text-gray-200 mb-3">
-                  Photo background removal or replacement services (Rp.
-                  10,000/photo)
+                  Photo background removal or replacement services (IDR.
+                  10.000/photo)
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                   - Maximum revision 1x / photo
                 </p>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
-                  - The final result is in JPEG/PNG format
+                  - The final result is in JPEG/JPG/PNG format
                 </p>
                 <Button className="mt-4 px-3 py-2 bg-primary text-white rounded-xl transition transform group-hover:scale-105">
                   <a href="https://wa.link/9qx738">Chat</a>
@@ -405,7 +417,7 @@ function Services() {
                   tie ( IDR. 15.000/photo)
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
-                  - The final result is in JPEG/PNG format
+                  - The final result is in JPEG/JPG/PNG format
                 </p>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                   - Maximum revision 1x *Additional fees will apply if the
@@ -624,9 +636,9 @@ function Services() {
                 </Button>
                 <Button
                   className="mt-4 px-2 py-1 bg-primary text-white rounded-xl transition transform group-hover:scale-105"
-                  href="http://linktr.ee/ikkoawinatacell"
+                  href="https://ikkoawinatacell.vercel.app/"
                 >
-                  <a href="http://linktr.ee/ikkoawinatacell/">Cek Semua Produk</a>
+                  <a href="https://ikkoawinatacell.vercel.app/">Cek Semua Produk</a>
                 </Button>
               </div>
             </div>
