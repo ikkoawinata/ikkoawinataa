@@ -14,11 +14,11 @@ import Kartu from "@/components/Kartu";
 
 const posts = [
   {
-    id: 34,
+    id: 35,
     title: "COMING SOON",
-    href: "./des",
+    href: "./",
     description:
-      "Coming Soon......",
+      ".",
     date: "",
     datetime: "",
     category: { title: "", href: "" },
@@ -28,7 +28,24 @@ const posts = [
       href: "",
       imageUrl: "./hero/COMING.png", // Gambar placeholder
     },
-    // marketingTags: ["CorelDraw"],
+      //  marketingTags: ["Reactjs", "Tailwind", "Framer Motion", "NextJS"], //
+  },
+ {
+    id: 34,
+    title: "Ikko Awinata Cell Official Website",
+    href: "./des",
+    description:
+      "Creation of a website for the promotion and sale of digital services.",
+    date: "2025",
+    datetime: "",
+    category: { title: "More", href: "https://ikkoawinatacell.vercel.app/" },
+    author: {
+      name: "Michael Foster",
+      role: "Co-Founder / CTO",
+      href: "",
+      imageUrl: "./hero/P7.png", // Gambar placeholder
+    },
+       marketingTags: ["Reactjs", "Tailwind", "Framer Motion", "NextJS"], //
   },
   {
     id: 30,
