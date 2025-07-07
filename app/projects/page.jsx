@@ -18,7 +18,7 @@ const posts = [
     title: "COMING SOON",
     href: "./",
     description:
-      ".",
+      "",
     date: "",
     datetime: "",
     category: { title: "", href: "" },
