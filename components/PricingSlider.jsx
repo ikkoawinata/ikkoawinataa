@@ -87,20 +87,22 @@ import "swiper/css/effect-coverflow";
 import "./pricingslider.css";
 
 const images = [
-  "./hero/trs1.jpg",
-  "./hero/trs2.jpg",
-  "./hero/trs3.jpg",
-  "./hero/trs4.jpg",
-  "./hero/trs5.jpg",
-  "./hero/trs6.jpg",
-  "./hero/trs7.jpg",
-  "./hero/trs8.jpg",
-  "./hero/trs9.jpg",
-  "./hero/trs10.jpg",
-  "./hero/trs11.jpg",
-  "./hero/trs13.jpg",
-  "./hero/trs14.jpg",
-  "./hero/trs15.jpg"
+  "./hero/buktitf1.jpg",
+  "./hero/buktitf2.jpg",
+  "./hero/buktitf3.jpg",
+  "./hero/buktitf4.jpg",
+  "./hero/buktitf5.jpg",
+  "./hero/buktitf6.jpg",
+  "./hero/buktitf7.jpg",
+  "./hero/buktitf8.jpg",
+  "./hero/buktitf9.jpg",
+  "./hero/buktitf10.jpg",
+  "./hero/buktitf11.jpg",
+  "./hero/buktitf13.jpg",
+  "./hero/buktitf14.jpg",
+  "./hero/buktitf15.jpg",
+  "./hero/buktitf16.jpg",
+  "./hero/buktitf17.jpg",
 ];
 
 export default function ImageSlider() {
