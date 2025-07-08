@@ -623,7 +623,7 @@ function Services() {
               <div className=" font-tentangflex-auto p-2 mt-6 lg:mt-0 relative items-center">
                 <p className="mx-auto text-lg text-justify">
                   Services I offer Digital Services (include: typing, photo editing, design, making PPT, etc) credit sales, and
-                  E-Wallet top-up.
+                  E-Wallet top-up).
                 </p>
                 <div>
                   <img src="./hero/byr.png" alt="" className="w-full mt-14" />
