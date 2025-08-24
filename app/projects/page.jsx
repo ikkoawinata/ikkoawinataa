@@ -13,8 +13,8 @@ import Kartu from "@/components/Kartu";
 
 
 const posts = [
-  {
-    id: 35,
+   {
+    id: 36,
     title: "COMING SOON",
     href: "./",
     description:
@@ -29,6 +29,23 @@ const posts = [
       imageUrl: "./hero/COMING.png", // Gambar placeholder
     },
       //  marketingTags: ["Reactjs", "Tailwind", "Framer Motion", "NextJS"], //
+  },
+  {
+    id: 35,
+    title: "Bengkel Motor AAN Official Website",
+    href: "./",
+    description:
+        "Development of a responsive website for AAN Motorcycle Workshop, designed to promote services, provide repair information, and facilitate customer bookings.",
+    date: "",
+    datetime: "",
+   category: { title: "More", href: "https://bengkel-motor-aan.vercel.app/" },
+    author: {
+      name: "Michael Foster",
+      role: "Co-Founder / CTO",
+      href: "",
+      imageUrl: "./hero/port-bengkel.png", // Gambar placeholder
+    },
+        marketingTags: ["Reactjs", "Tailwind", "Framer Motion", "NextJS"], //
   },
  {
     id: 34,
