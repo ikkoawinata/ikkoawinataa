@@ -745,6 +745,21 @@ const photography = [
       imageUrl: "./hero/grahapena.jpeg", // Gambar placeholder
     } // Menambahkan tag marketing sebagai contoh
   },
+
+     {
+    id: 37,
+    title: " ",
+    description:
+      '',
+    date: "",
+    datetime: "2024-08  -10",
+    category: { title: "More", href: "" },
+    author: {
+      name: "Michael Foster",
+      role: "Co-Founder / CTO",
+      imageUrl: "./hero/fotog1.jpg", // Gambar placeholder
+    } // Menambahkan tag marketing sebagai contoh
+  },
  
 ];
 
