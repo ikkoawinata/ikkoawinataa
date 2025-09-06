@@ -31,7 +31,6 @@ const posts = [
       //  marketingTags: ["Reactjs", "Tailwind", "Framer Motion", "NextJS"], //
   },
 
-    },
    {
     id: 36,
     title: "Hand Tracking Audio Volume Controller",
