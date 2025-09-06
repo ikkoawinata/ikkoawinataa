@@ -14,7 +14,7 @@ import Kartu from "@/components/Kartu";
 
 const posts = [
    {
-    id: 36,
+    id: 38,
     title: "COMING SOON",
     href: "./",
     description:
@@ -30,6 +30,26 @@ const posts = [
     },
       //  marketingTags: ["Reactjs", "Tailwind", "Framer Motion", "NextJS"], //
   },
+
+    },
+   {
+    id: 36,
+    title: "Hand Tracking Audio Volume Controller",
+    href: "./",
+    description:
+      "A Python project that allows you to control your system’s audio volume using hand gestures detected via webcam.",
+    date: "",
+    datetime: "",
+    category: { title: "More", href: "https://github.com/ikkoawinata/HandTrackingAudioVolumeController" },
+    author: {
+      name: "Michael Foster",
+      role: "Co-Founder / CTO",
+      href: "./hero/handtrack.jpg",
+      imageUrl: "./hero/handtrack.jpg", // Gambar placeholder
+    },
+       marketingTags: ["Python", "MediaPipe", "Pycaw", "OpenCV"], //
+  },
+   
   {
     id: 35,
     title: "Bengkel Motor AAN Official Website",
