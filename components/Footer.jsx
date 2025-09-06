@@ -10,7 +10,7 @@ const Footer = () => {
             iconsStyles="text-primary text-[18px] sm:text-[17px] transition-transform transform hover:scale-110 dark:hover:text-[#FFF8E8] hover:text-[#080c14] cursor-pointer"
           />
           <div className="mt-4 sm:mt-0 text-muted-foreground text-[7px] sm:text-[12px] text-center sm:text-left">
-            ©2022 – 2025 Ikko Cahya Awinata. All rights reserved.
+            ©2025 Ikko Cahya Awinata. All rights reserved.
           </div>
         </div>
       </div>
