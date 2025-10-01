@@ -789,6 +789,28 @@ const BrandingSection = () => {
       <tbody>
 
 
+          
+
+  {/* Baris Keempat */}
+        <tr>
+          <td className=" font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+            August 2025 - October 2025
+          </td>
+          <td className=" font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+            Graphic Designer
+          </td>
+          <td className=" font-tentang px-4 py-2 border underline border-gray-300 dark:border-gray-700 text-gray-500 dark:text-gray-400">
+    <a href="https://www.instagram.com/millenialzkece.official/" className="black">Millenialzkece Team</a>
+    
+      </td>
+
+        </tr>
+
+
+
+
+          
+
             <tr>
     <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
     February 2025 – March 2025
