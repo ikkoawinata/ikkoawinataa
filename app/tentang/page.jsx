@@ -791,7 +791,7 @@ const BrandingSection = () => {
 
           
 
-  {/* Baris Keempat */}
+  {/* Baris kelima */}
         <tr>
           <td className=" font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
             August 2025 - October 2025
@@ -806,7 +806,22 @@ const BrandingSection = () => {
 
         </tr>
 
+          
 
+           {/* Baris Keempat */}
+        <tr>
+          <td className=" font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+            February 2025 - June 2025
+          </td>
+          <td className=" font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+            IT Support
+          </td>
+          <td className=" font-tentang px-4 py-2 border underline border-gray-300 dark:border-gray-700 text-gray-500 dark:text-gray-400">
+    <a href="https://www.instagram.com/bidtik_poldajatim/" className="black"> Kepolisian Daerah Jawa Timur(Polda Jatim) </a>
+    
+      </td>
+
+        </tr>
 
 
           
