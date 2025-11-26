@@ -677,7 +677,7 @@ const photography = [
     author: {
       name: "Michael Foster",
       role: "Co-Founder / CTO",
-      imageUrl: "./hero/tujuh.jpg", // Gambar placeholder
+      imageUrl: "./hero/tujuh.png", // Gambar placeholder
     } // Menambahkan tag marketing sebagai contoh
   },
   {
