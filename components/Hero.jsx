@@ -153,11 +153,7 @@ const Hero = () => {
           </span>
         </h1>
         <p className="subtitle font-tentang text-gray-600 dark:text-white max-w-[550px]">
-          I've done various projects in the fields of UI/UX design, motion
-          graphics, front-end development, and video editing. With over two
-          years of experience in coding, I have designed attractive and
-          engaging user interfaces and developed dynamic web applications
-          and statistical websites.
+          I work across UI/UX design, motion graphics, front-end development, and video editing. I transform ideas into engaging digital experiences by designing intuitive interfaces and building responsive, dynamic web applications.
         </p>
         {/* Buttons */}
         <div>

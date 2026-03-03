@@ -14,7 +14,7 @@ import Kartu from "@/components/Kartu";
 
 const posts = [
    {
-    id: 38,
+    id: 39,
     title: "COMING SOON",
     href: "./",
     description:
@@ -28,7 +28,25 @@ const posts = [
       href: "",
       imageUrl: "./hero/COMING.png", // Gambar placeholder
     },
-      //  marketingTags: ["Reactjs", "Tailwind", "Framer Motion", "NextJS"], //
+     // marketingTags: ["Reactjs", "Tailwind", "Postman"], //
+  },
+
+   {
+    id: 38,
+    title: "SIOPTIMA (Sistem Terintegrasi dan Monitoring IPAL)",
+    href: "https://github.com/sioptima/SIOPTIMA",
+    description:
+      "Sistem ini mencatat semua data operasional secara terpusat & real-time.",
+    date: "2025",
+    datetime: "",
+    category: { title: "More", href: "https://github.com/sioptima/SIOPTIMA" },
+    author: {
+      name: "Michael Foster",
+      role: "Co-Founder / CTO",
+      href: "",
+      imageUrl: "./hero/sioptima.png", // Gambar placeholder
+    },
+    marketingTags: ["ReactJS", "Tailwind", "Postman", "LeafletJS", "ExpressJS", "PostgreSQL"], //
   },
 
    {
@@ -37,7 +55,7 @@ const posts = [
     href: "./",
     description:
       "A Python project that allows you to control your system’s audio volume using hand gestures detected via webcam.",
-    date: "",
+    date: "2025",
     datetime: "",
     category: { title: "More", href: "https://github.com/ikkoawinata/HandTrackingAudioVolumeController" },
     author: {
@@ -46,7 +64,7 @@ const posts = [
       href: "./hero/handtrack.jpg",
       imageUrl: "./hero/handtrack.jpg", // Gambar placeholder
     },
-       marketingTags: ["Python", "MediaPipe", "Pycaw", "OpenCV"], //
+       marketingTags: ["Python", "MediaPipe", "PyCaw", "OpenCV"], //
   },
    
   {
@@ -55,7 +73,7 @@ const posts = [
     href: "./",
     description:
         "Development of a responsive website for AAN Motorcycle Workshop, designed to promote services, provide repair information, and facilitate customer bookings.",
-    date: "",
+    date: "2025",
     datetime: "",
    category: { title: "More", href: "https://bengkel-motor-aan.vercel.app/" },
     author: {
@@ -64,7 +82,7 @@ const posts = [
       href: "",
       imageUrl: "./hero/port-bengkel.png", // Gambar placeholder
     },
-        marketingTags: ["Reactjs", "Tailwind", "Framer Motion", "NextJS"], //
+        marketingTags: ["ReactJS", "Tailwind", "Framer Motion", "NextJS"], //
   },
  {
     id: 34,
@@ -81,7 +99,7 @@ const posts = [
       href: "",
       imageUrl: "./hero/P7.png", // Gambar placeholder
     },
-       marketingTags: ["Reactjs", "Tailwind", "Framer Motion", "NextJS"], //
+       marketingTags: ["ReactJS", "Tailwind", "Framer Motion", "NextJS"], //
   },
   {
     id: 30,
@@ -285,7 +303,7 @@ const posts = [
     description:
       "The MultiCalcPro project is designed to be a comprehensive calculator capable of handling a wide range of calculations, including temperature, mass units, and more",
     date: "2024",
-    datetime: "2024-08  -10",
+    datetime: "2024-08-10",
     category: {
       title: "More",
       href: "https://github.com/ikkoawinata/MultiCalcPro-app/tree/ikkoawinata.github.io",
@@ -314,7 +332,7 @@ const posts = [
       href: "https://awinata.vercel.app/",
       imageUrl: "./hero/web2.jpeg", // Gambar placeholder
     },
-    marketingTags: ["Reactjs", "Tailwind", "Framer Motion", "NextJS"], // Menambahkan tag marketing sebagai contoh
+    marketingTags: ["ReactJS", "Tailwind", "Framer Motion", "NextJS"], // Menambahkan tag marketing sebagai contoh
   },
   {
     id: 29,
@@ -331,7 +349,7 @@ const posts = [
       href: "",
       imageUrl: "./hero/matauang.jpeg", // Gambar placeholder
     },
-    marketingTags: ["Reactjs", "Tailwind"], // Menambahkan tag marketing sebagai contoh
+    marketingTags: ["ReactJS", "Tailwind"], // Menambahkan tag marketing sebagai contoh
   },
 
 
@@ -386,7 +404,7 @@ const posts = [
       href: "",
       imageUrl: "./hero/crud1.jpeg", // Gambar placeholder
     },
-    marketingTags: ["Bootstrap","MSQL"], // Menambahkan tag marketing sebagai contoh
+    marketingTags: ["Bootstrap","MySQL"], // Menambahkan tag marketing sebagai contoh
   },
 
   {
@@ -404,7 +422,7 @@ const posts = [
       href: "",
       imageUrl: "./hero/port1.jpeg", // Gambar placeholder
     },
-    marketingTags: ["CorelDRAW"], // Menambahkan tag marketing sebagai contoh
+    marketingTags: ["CorelDraw"], // Menambahkan tag marketing sebagai contoh
   },
 
   {
@@ -422,7 +440,7 @@ const posts = [
       href: "",
       imageUrl: "./hero/port3.jpeg", // Gambar placeholder
     },
-    marketingTags: ["CorelDRAW"], // Menambahkan tag marketing sebagai contoh
+    marketingTags: ["CorelDraw"], // Menambahkan tag marketing sebagai contoh
   },
   {
     id: 15,
@@ -439,7 +457,7 @@ const posts = [
       href: "",
       imageUrl: "./hero/port2.jpeg", // Gambar placeholder
     },
-    marketingTags: ["CorelDRAW"], // Menambahkan tag marketing sebagai contoh
+    marketingTags: ["CorelDraw"], // Menambahkan tag marketing sebagai contoh
   },
   {
     id: 16,
@@ -456,7 +474,7 @@ const posts = [
       href: "",
       imageUrl: "./hero/port4.jpg", // Gambar placeholder
     },
-    marketingTags: ["CorelDRAW"], // Menambahkan tag marketing sebagai contoh
+    marketingTags: ["CorelDraw"], // Menambahkan tag marketing sebagai contoh
   }
 
   ];
