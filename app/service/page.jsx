@@ -297,8 +297,8 @@ function Services() {
 
               <div className="p-6 flex-1">
                 <h3 className="text-lg font-bold text-gray-800 dark:text-gray-200 mb-3">
-                  Change color *tie only (IDR. 10.000) / change color *suit only
-                  (IDR. 10.000) / change color *suit+tie (IDR. 12.000)
+                  Change color *tie only / change color *suit only
+                / change color *suit+tie
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                   - The final result is in JPEG/JPG/PNG format
@@ -332,8 +332,8 @@ function Services() {
               />
               <div className=" font-tentang p-6 flex-1">
                 <h3 className="text-lg font-bold text-gray-800 dark:text-gray-200 mb-3">
-                  Photo Edit Wear Almameter Jacket Only (IDR. 22.000) or Change Clothes
-                  Color, Hijab and others (IDR. 17.000)
+                  Photo Edit Wear Almameter Jacket Only or Change Clothes
+                  Color, Hijab and others
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                   - The final result is in JPEG/JPG/PNG format
@@ -361,7 +361,7 @@ function Services() {
               />
               <div className="p-6 flex-1">
                 <h3 className="text-lg font-bold text-gray-800 dark:text-gray-200 mb-3">
-                  Change photo size (IDR. 7.000 / photo)
+                  Change photo size
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                   - The final result is in JPEG/JPG/PNG format
@@ -389,8 +389,7 @@ function Services() {
               />
               <div className="p-6 flex-1">
                 <h3 className="text-lg font-bold text-gray-800 dark:text-gray-200 mb-3">
-                  Photo background removal or replacement services (IDR.
-                  10.000/photo)
+                  Photo background removal or replacement services
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                   - Maximum revision 1x / photo
@@ -413,8 +412,8 @@ function Services() {
               />
               <div className="p-6 flex-1">
                 <h3 className="text-lg font-bold text-gray-800 dark:text-gray-200 mb-3">
-                  Edit photos add a tie only ( IDR. 7000/photo) or add suit +
-                  tie ( IDR. 15.000/photo)
+                  Edit photos add a tie only or add suit +
+                  tie 
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                   - The final result is in JPEG/JPG/PNG format

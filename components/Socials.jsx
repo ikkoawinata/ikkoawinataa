@@ -10,6 +10,7 @@ import {
   RiInstagramFill,
   RiMailFill,
   RiMediumFill,
+  RiTiktokFill,
 } from "react-icons/ri";
 
 import Link from "next/link";
@@ -48,6 +49,10 @@ const icons = [
   {
     path: "https://medium.com/@ikkocahyaawinata",
     name: <RiMediumFill />,
+  },
+  {
+    path: "https://www.tiktok.com/foryou?lang=en-GB",
+    name: <RiTiktokFill />,
   },
 ];
 

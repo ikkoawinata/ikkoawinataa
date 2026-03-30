@@ -733,42 +733,55 @@ const BrandingSection = () => {
   return (
     <>
       <section className="flex items-center justify-between min-h-[120vh] px-8 lg:px-28 bg-hero bg-cover bg-center dark:bg-none">
-        <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-between lg:-mt-14 mt-28">
-          {/* Text Content */}
-          <div className="max-w-lg mt-10 lg:mt-0 lg:order-1">
-            <h1 className="text-4xl lg:text-4xl font-bold leading-tight mb-4 text-gray-900 dark:text-white">
-              Hi, I’m <br />
-              <span className="font-size-12 text-yellow-600 dark:text-primary">
-                Ikko Cahya Awinata
-              </span>
-            </h1>
-            <p className="text-sm-about subtitle font-tentang text-gray-600 dark:text-gray-300 mb-8 max-w-[550px]">
-              An undergraduate Informatic Engineer from Universitas Negeri
-              Surabaya, with a strong passion for UI/UX and Front-End
-              Development. I thrive on creating innovative web solutions that
-              make a difference and am dedicated to continually learning and
-              exploring new technologies.
-            </p>
-            <div className="flex space-x-8 mb-36 text-sm text-primary">
-              <a
-                href="./projects"
-                className="text-sm font-tentang text-yellow-600 dark:text-primary hover:text-yellow-500 dark:hover:text-yellow-300 transition"
-              >
-                Explore My Work
-              </a>
-            </div>
-          </div>
+  <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-between lg:-mt-14 mt-28">
+    
+    {/* Text Content */}
+    <div className="max-w-lg mt-10 lg:mt-0 lg:order-1">
 
-          {/* Illustration Image */}
-          <div className="mt-8 lg:-mt-32 lg:order-2 flex justify-center">
-            <img
-              src="./hero/dev3.png" // Replace with the correct path to your image
-              alt="Illustration"
-              className="w-full lg:w-10/12 -mt-12 md:w-1/2 h-auto shadow-[0px_10px_30px_rgba(252,211,77,0.6)] transform -rotate-6 rounded-md transition-all duration-300 hover:scale-105 hover:shadow-[0px_10px_30px_rgba(3,174,210,0.8)] hover:rotate-0" // Adjusted negative top margin
-            />
-          </div>
-        </div>
-      </section>
+      {/* OPEN TO WORK Badge */}
+      <div className="inline-flex items-center gap-2 px-3 py-1 mb-4 rounded-full border border-gray-300 dark:border-gray-700 bg-white/60 dark:bg-gray-800/60 backdrop-blur-sm text-xs font-semibold text-gray-700 dark:text-gray-200">
+        <span className="relative flex h-2 w-2">
+          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+          <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+        </span>
+        OPEN TO WORK
+      </div>
+
+      <h1 className="text-4xl lg:text-4xl font-bold leading-tight mb-4 text-gray-900 dark:text-white">
+        Hi, I’m <br />
+        <span className="font-size-12 text-yellow-600 dark:text-primary">
+          Ikko Cahya Awinata
+        </span>
+      </h1>
+
+      <p className="text-sm-about subtitle font-tentang text-gray-600 dark:text-gray-300 mb-8 max-w-[550px]">
+        With a strong passion for UI/UX and Front-End
+        Development. I thrive on creating innovative web solutions that
+        make a difference and dedicated to continually learning and
+        exploring new technologies.
+      </p>
+
+      <div className="flex space-x-8 mb-36 text-sm text-primary">
+        <a
+          href="./projects"
+          className="text-sm font-tentang text-yellow-600 dark:text-primary hover:text-yellow-500 dark:hover:text-yellow-300 transition"
+        >
+          Explore My Work
+        </a>
+      </div>
+    </div>
+
+    {/* Illustration Image */}
+    <div className="mt-8 lg:-mt-32 lg:order-2 flex justify-center">
+      <img
+        src="./hero/dev3.png"
+        alt="Illustration"
+        className="w-full lg:w-10/12 -mt-12 md:w-1/2 h-auto shadow-[0px_10px_30px_rgba(252,211,77,0.6)] transform -rotate-6 rounded-md transition-all duration-300 hover:scale-105 hover:shadow-[0px_10px_30px_rgba(3,174,210,0.8)] hover:rotate-0"
+      />
+    </div>
+
+  </div>
+</section>
       <section className="py-10 bg-white dark:bg-gray-12">
         <section className="container -mt-5 mx-auto text-center">
         <h2 className="text-3xl underline font-normal text-gray-900 dark:text-gray-100 mb-10">
