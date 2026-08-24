@@ -389,9 +389,6 @@ import { SiMysql } from "react-icons/si";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 
-
-
-
 // const BrandingSection = () => {
 //   const [isDarkMode, setIsDarkMode] = useState(false);
 
@@ -463,7 +460,6 @@ import Image from "next/image";
 //       Experience
 //     </h2>
 
-
 //       {/* Tabel Pengalaman */}
 //   <div className="mx-auto mt-6 max-w-4xl overflow-x-auto mb-20">
 //     <table className="table-auto w-full text-left border-collapse border border-gray-300 dark:border-gray-700">
@@ -485,7 +481,7 @@ import Image from "next/image";
 //           </td>
 //           <td className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-500 dark:text-gray-400">
 //     <a href="https://grow.google/intl/id_id/bangkit/?tab=machine-learning" className="text-blue-500">PT. Dicoding Akademi Indonesia</a>
-    
+
 //       </td>
 
 //         </tr>
@@ -506,12 +502,11 @@ import Image from "next/image";
 //     </table>
 //   </div> */}
 
-    
 //       {/* Icons INI YANG LAMA*/}
 //     {/* <h2 className="text-3xl underline font-normal text-gray-900 dark:text-gray-100 mb-6">
 //       Here is the stack of technologies I work with:
 //     </h2>
-//     <div className="mx-auto mt-10 grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-6 gap-x-5 gap-y-5 max-w-2xl"> 
+//     <div className="mx-auto mt-10 grid grid-cols-3 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-6 gap-x-5 gap-y-5 max-w-2xl">
 //       <div className="flex justify-center items-center">
 //         <LuFigma className="text-4xl-skill hover:transform hover:scale-110 transition-all duration-300 ease-in-out" />
 //       </div>
@@ -568,15 +563,9 @@ import Image from "next/image";
 //       </div>
 //       <div className="flex justify-center items-center">
 //         <SiNotion className="text-4xl-skill hover:transform hover:scale-110  transition-all duration-300 ease-in-out" />
-//       </div> 
+//       </div>
 //     </div> */}
 //     {/* Icons INI YANG LAMA*/}
-
-
-
-
-
-
 
 // <h2 className="text-3xl underline font-normal text-gray-900 dark:text-gray-100 mb-6">
 //   Here is the stack of technologies I work with:
@@ -585,10 +574,10 @@ import Image from "next/image";
 // <div className="mx-auto mt-6 max-w-4xl overflow-x-hidden mb-20">
 //   <div className="icon-scroll-container overflow-hidden w-full px-10 md:px-20 lg:px-32">
 //     <div className="icon-scroll-content">
-//       {[ 
-//         LuFigma, SiCoreldraw, SiAdobeillustrator, SiAdobeaftereffects, 
-//         SiAdobepremierepro, SiWondersharefilmora, FaReact, FaVuejs, 
-//         SiTailwindcss, RiNextjsFill, FaBootstrap, FaGitAlt, SiAdobephotoshop, 
+//       {[
+//         LuFigma, SiCoreldraw, SiAdobeillustrator, SiAdobeaftereffects,
+//         SiAdobepremierepro, SiWondersharefilmora, FaReact, FaVuejs,
+//         SiTailwindcss, RiNextjsFill, FaBootstrap, FaGitAlt, SiAdobephotoshop,
 //         FaGolang, SiTypescript, IoLogoVercel, SiVisualstudiocode, SiMysql, SiNotion
 //       ].map((Icon, index) => (
 //         <div key={`original-${index}`} className="icon-item">
@@ -596,10 +585,10 @@ import Image from "next/image";
 //         </div>
 //       ))}
 //       {/* Duplikasi ikon untuk seamless looping */}
-//       {[ 
-//         LuFigma, SiCoreldraw, SiAdobeillustrator, SiAdobeaftereffects, 
-//         SiAdobepremierepro, SiWondersharefilmora, FaReact, FaVuejs, 
-//         SiTailwindcss, RiNextjsFill, FaBootstrap, FaGitAlt, SiAdobephotoshop, 
+//       {[
+//         LuFigma, SiCoreldraw, SiAdobeillustrator, SiAdobeaftereffects,
+//         SiAdobepremierepro, SiWondersharefilmora, FaReact, FaVuejs,
+//         SiTailwindcss, RiNextjsFill, FaBootstrap, FaGitAlt, SiAdobephotoshop,
 //         FaGolang, SiTypescript, IoLogoVercel, SiVisualstudiocode, SiMysql, SiNotion
 //       ].map((Icon, index) => (
 //         <div key={`duplicate-${index}`} className="icon-item">
@@ -610,23 +599,14 @@ import Image from "next/image";
 //   </div>
 // </div>
 
-
-
-   
-
-
 // <div>
 //   <Marquee>
 
 //   </Marquee>
 // </div>
 
-
-
 //    </section>
 // </section>
-
-
 
 //       {/* Downward Arrow Icon with Text */}
 //       <div className="mouse-scroll-container hidden lg:flex flex-col items-center">
@@ -639,71 +619,7 @@ import Image from "next/image";
 //   );
 // };
 
-
 // export default BrandingSection;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 const BrandingSection = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -711,7 +627,7 @@ const BrandingSection = () => {
   useEffect(() => {
     // Check for user's theme preference
     const prefersDarkMode = window.matchMedia(
-      "(prefers-color-scheme: dark)"
+      "(prefers-color-scheme: dark)",
     ).matches;
     setIsDarkMode(prefersDarkMode);
 
@@ -733,199 +649,326 @@ const BrandingSection = () => {
   return (
     <>
       <section className="flex items-center justify-between min-h-[120vh] px-8 lg:px-28 bg-hero bg-cover bg-center dark:bg-none">
-  <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-between lg:-mt-14 mt-28">
-    
-    {/* Text Content */}
-    <div className="max-w-lg mt-10 lg:mt-0 lg:order-1">
+        <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-between lg:-mt-14 mt-28">
+          {/* Text Content */}
+          <div className="max-w-lg mt-10 lg:mt-0 lg:order-1">
+            {/* OPEN TO WORK Badge */}
+            <div className="inline-flex items-center gap-2 px-3 py-1 mb-4 rounded-full border border-gray-300 dark:border-gray-700 bg-white/60 dark:bg-gray-800/60 backdrop-blur-sm text-xs font-semibold text-gray-700 dark:text-gray-200">
+              <span className="relative flex h-2 w-2">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+              </span>
+              OPEN TO WORK
+            </div>
 
-      {/* OPEN TO WORK Badge */}
-      <div className="inline-flex items-center gap-2 px-3 py-1 mb-4 rounded-full border border-gray-300 dark:border-gray-700 bg-white/60 dark:bg-gray-800/60 backdrop-blur-sm text-xs font-semibold text-gray-700 dark:text-gray-200">
-        <span className="relative flex h-2 w-2">
-          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-          <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
-        </span>
-        OPEN TO WORK
-      </div>
+            <h1 className="text-4xl lg:text-4xl font-bold leading-tight mb-4 text-gray-900 dark:text-white">
+              Hi, I’m <br />
+              <span className="font-size-12 text-yellow-600 dark:text-primary">
+                Ikko Cahya Awinata
+              </span>
+            </h1>
 
-      <h1 className="text-4xl lg:text-4xl font-bold leading-tight mb-4 text-gray-900 dark:text-white">
-        Hi, I’m <br />
-        <span className="font-size-12 text-yellow-600 dark:text-primary">
-          Ikko Cahya Awinata
-        </span>
-      </h1>
+            <p className="text-sm-about subtitle font-tentang text-gray-600 dark:text-gray-300 mb-8 max-w-[550px]">
+              With a strong passion for UI/UX and Front-End Development. I
+              thrive on creating innovative web solutions that make a difference
+              and dedicated to continually learning and exploring new
+              technologies.
+            </p>
 
-      <p className="text-sm-about subtitle font-tentang text-gray-600 dark:text-gray-300 mb-8 max-w-[550px]">
-        With a strong passion for UI/UX and Front-End
-        Development. I thrive on creating innovative web solutions that
-        make a difference and dedicated to continually learning and
-        exploring new technologies.
-      </p>
+            <div className="flex space-x-8 mb-36 text-sm text-primary">
+              <a
+                href="./projects"
+                className="text-sm font-tentang text-yellow-600 dark:text-primary hover:text-yellow-500 dark:hover:text-yellow-300 transition"
+              >
+                Explore My Work
+              </a>
+            </div>
+          </div>
 
-      <div className="flex space-x-8 mb-36 text-sm text-primary">
-        <a
-          href="./projects"
-          className="text-sm font-tentang text-yellow-600 dark:text-primary hover:text-yellow-500 dark:hover:text-yellow-300 transition"
-        >
-          Explore My Work
-        </a>
-      </div>
-    </div>
-
-    {/* Illustration Image */}
-    <div className="mt-8 lg:-mt-32 lg:order-2 flex justify-center">
-      <img
-        src="./hero/dev3.png"
-        alt="Illustration"
-        className="w-full lg:w-10/12 -mt-12 md:w-1/2 h-auto shadow-[0px_10px_30px_rgba(252,211,77,0.6)] transform -rotate-6 rounded-md transition-all duration-300 hover:scale-105 hover:shadow-[0px_10px_30px_rgba(3,174,210,0.8)] hover:rotate-0"
-      />
-    </div>
-
-  </div>
-</section>
+          {/* Illustration Image */}
+          <div className="mt-8 lg:-mt-32 lg:order-2 flex justify-center">
+            <img
+              src="./hero/dev3.png"
+              alt="Illustration"
+              className="w-full lg:w-10/12 -mt-12 md:w-1/2 h-auto shadow-[0px_10px_30px_rgba(252,211,77,0.6)] transform -rotate-6 rounded-md transition-all duration-300 hover:scale-105 hover:shadow-[0px_10px_30px_rgba(3,174,210,0.8)] hover:rotate-0"
+            />
+          </div>
+        </div>
+      </section>
       <section className="py-10 bg-white dark:bg-gray-12">
         <section className="container -mt-5 mx-auto text-center">
-        <h2 className="text-3xl underline font-normal text-gray-900 dark:text-gray-100 mb-10">
-      Experience
-    </h2>
+          <h2 className="text-3xl underline font-normal text-gray-900 dark:text-gray-100 mb-10">
+            Experience
+          </h2>
 
+          {/* Tabel Pengalaman */}
+          <div className="mx-auto mt-6 max-w-4xl overflow-x-auto mb-20">
+            <table className="table-auto w-full text-left border-collapse border border-gray-300 dark:border-gray-700">
+              <thead>
+                <tr className="bg-gray-100 dark:bg-gray-800">
+                  {/* No */}
+                  <th className="px-4 py-2 border font-tentang border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 text-center">
+                    No.
+                  </th>
 
-      {/* Tabel Pengalaman */}
-  <div className="mx-auto mt-6 max-w-4xl overflow-x-auto mb-20">
-    <table className="table-auto w-full text-left border-collapse border border-gray-300 dark:border-gray-700">
-      <thead>
-        <tr className="bg-gray-100 dark:bg-gray-800">
-          <th className="px-4 py-2 border font-tentang border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300">Date</th>
-          <th className="px-4 py-2 border font-tentang border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300">Role</th>
-          <th className="px-4 py-2 border font-tentang border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300">Company</th>
-        </tr>
-      </thead>
-      <tbody>
+                  {/* Date */}
+                  <th className="px-4 py-2 border font-tentang border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300">
+                    Date
+                  </th>
 
+                  {/* Role */}
+                  <th className="px-4 py-2 border font-tentang border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300">
+                    Role
+                  </th>
 
-          
+                  {/* Company */}
+                  <th className="px-4 py-2 border font-tentang border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300">
+                    Company
+                  </th>
+                </tr>
+              </thead>
 
-  {/* Baris kelima */}
-        <tr>
-          <td className=" font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
-            August 2025 - October 2025
-          </td>
-          <td className=" font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
-            Graphic Designer
-          </td>
-          <td className=" font-tentang px-4 py-2 border underline border-gray-300 dark:border-gray-700 text-gray-500 dark:text-gray-400">
-    <a href="https://www.instagram.com/millenialzkece.official/" className="black">Millenialzkece Team</a>
-    
-      </td>
+              <tbody>
+                {/* 1 */}
+                <tr>
+                  <td className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100 text-center">
+                    1
+                  </td>
 
-        </tr>
+                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+                    August 2026 - Present
+                  </td>
 
-          
+                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+                    Graphic Designer
+                  </td>
 
-           {/* Baris Keempat */}
-        <tr>
-          <td className=" font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
-            February 2025 - June 2025
-          </td>
-          <td className=" font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
-            IT Support
-          </td>
-          <td className=" font-tentang px-4 py-2 border underline border-gray-300 dark:border-gray-700 text-gray-500 dark:text-gray-400">
-    <a href="https://www.instagram.com/bidtik_poldajatim/" className="black"> Kepolisian Daerah Jawa Timur(Polda Jatim) </a>
-    
-      </td>
+                  <td className="font-tentang px-4 py-2 border underline border-gray-300 dark:border-gray-700 text-gray-500 dark:text-gray-400">
+                    <a
+                      href="https://www.instagram.com/millenialzkece.official/"
+                      className="black"
+                    >
+                      Millenialzkece Team
+                    </a>
+                  </td>
+                </tr>
 
-        </tr>
+                {/* 2 */}
+                <tr>
+                  <td className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100 text-center">
+                    2
+                  </td>
 
+                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+                    May 2026
+                  </td>
 
-          
+                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+                    Crew Kedai
+                  </td>
 
-            <tr>
-    <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
-    February 2025 – March 2025
-    </td>
-    <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
-    Ads Creative Video Intern – Pubmedia Project 
-    </td>
-    <td
-      className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-500 dark:text-gray-400 underline"
-      rowSpan={2}
-    >
-     <a href="https://www.linkedin.com/posts/rafihakim12_pt-renjana-sinergi-indonesia-adalah-perusahaan-activity-7192670234678288385-fQj4/" className="black">PT. Renjana Sinergi Indonesia</a>
-    </td>
-  </tr>
+                  <td className="font-tentang px-4 py-2 border underline border-gray-300 dark:border-gray-700 text-gray-500 dark:text-gray-400">
+                    <a href="#" className="black">
+                      Kedai Rindu Kangen
+                    </a>
+                  </td>
+                </tr>
 
-  <tr>
-    <td className=" font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
-                    January 2025 – March 2025  
-    </td>
-    <td className=" font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
-               Ads Creative – Serena Hills Puncak Project
-    </td>
-  </tr>
+                {/* 3 */}
+                <tr>
+                  <td className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100 text-center">
+                    3
+                  </td>
 
-          
-        {/* Baris Pertama */}
-        <tr>
-          <td className=" font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
-            September 2024 - January 2025
-          </td>
-          <td className=" font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
-            Bangkit Machine Learning Path Cohort
-          </td>
-          <td className=" font-tentang px-4 py-2 border underline border-gray-300 dark:border-gray-700 text-gray-500 dark:text-gray-400">
-    <a href="https://grow.google/intl/id_id/bangkit/?tab=machine-learning" className="black">PT. Dicoding Akademi Indonesia</a>
-    
-      </td>
+                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+                    August 2025 - October 2025
+                  </td>
 
-        </tr>
+                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+                    Graphic Designer
+                  </td>
 
-        {/* Baris Kedua */}
-        <tr className="">
-          <td className=" font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
-          Desember 2020 - January 2023
-          </td>
-          <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
-            Operational Staff
-          </td>
-          <td className="font-tentang px-4 py-2 border underline border-gray-300 dark:border-gray-700 text-gray-500 dark:text-gray-400">
-          <a href="https://linktr.ee/abeenet" className="black">Abee Net & Payment</a>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+                  <td className="font-tentang px-4 py-2 border underline border-gray-300 dark:border-gray-700 text-gray-500 dark:text-gray-400">
+                    <a
+                      href="https://www.instagram.com/millenialzkece.official/"
+                      className="black"
+                    >
+                      Millenialzkece Team
+                    </a>
+                  </td>
+                </tr>
 
+                {/* 4 */}
+                <tr>
+                  <td className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100 text-center">
+                    4
+                  </td>
+
+                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+                    February 2025 - June 2025
+                  </td>
+
+                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+                    IT Support
+                  </td>
+
+                  <td className="font-tentang px-4 py-2 border underline border-gray-300 dark:border-gray-700 text-gray-500 dark:text-gray-400">
+                    <a
+                      href="https://www.instagram.com/bidtik_poldajatim/"
+                      className="black"
+                    >
+                      Kepolisian Daerah Jawa Timur (Polda Jatim)
+                    </a>
+                  </td>
+                </tr>
+
+                {/* 5 */}
+                <tr>
+                  <td
+                    className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100 text-center"
+                    rowSpan={2}
+                  >
+                    5
+                  </td>
+
+                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+                    February 2025 – March 2025
+                  </td>
+
+                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+                    Ads Creative Video Intern – Pubmedia Project
+                  </td>
+
+                  <td
+                    className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-500 dark:text-gray-400 underline"
+                    rowSpan={2}
+                  >
+                    <a
+                      href="https://www.linkedin.com/posts/rafihakim12_pt-renjana-sinergi-indonesia-adalah-perusahaan-activity-7192670234678288385-fQj4/"
+                      className="black"
+                    >
+                      PT. Renjana Sinergi Indonesia
+                    </a>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+                    January 2025 – March 2025
+                  </td>
+
+                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+                    Ads Creative – Serena Hills Puncak Project
+                  </td>
+                </tr>
+
+                {/* 6 */}
+                <tr>
+                  <td className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100 text-center">
+                    6
+                  </td>
+
+                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+                    September 2024 - January 2025
+                  </td>
+
+                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+                    Bangkit Machine Learning Path Cohort
+                  </td>
+
+                  <td className="font-tentang px-4 py-2 border underline border-gray-300 dark:border-gray-700 text-gray-500 dark:text-gray-400">
+                    <a
+                      href="https://grow.google/intl/id_id/bangkit/?tab=machine-learning"
+                      className="black"
+                    >
+                      PT. Dicoding Akademi Indonesia
+                    </a>
+                  </td>
+                </tr>
+
+                {/* 7 */}
+                <tr>
+                  <td className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100 text-center">
+                    7
+                  </td>
+
+                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+                    December 2020 - January 2023
+                  </td>
+
+                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+                    Operational Staff
+                  </td>
+
+                  <td className="font-tentang px-4 py-2 border underline border-gray-300 dark:border-gray-700 text-gray-500 dark:text-gray-400">
+                    <a href="https://linktr.ee/abeenet" className="black">
+                      Abee Net & Payment
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
           <h2 className="text-3xl underline font-normal text-gray-900 dark:text-gray-100 mb-6">
             Tech Stack I Work With:
           </h2>
 
-                <div className="mx-auto mt-6 max-w-4xl overflow-x-hidden mb-20">
-  <Marquee speed={50} gradient={false}>
-    {[
-      LuFigma, SiCoreldraw, SiAdobeillustrator, SiAdobeaftereffects, 
-      SiAdobepremierepro, SiWondersharefilmora, FaReact, FaVuejs, 
-      SiTailwindcss, RiNextjsFill, FaBootstrap, FaGitAlt, SiAdobephotoshop, 
-      FaGolang, SiTypescript, IoLogoVercel, SiVisualstudiocode, SiMysql, SiNotion
-    ].map((Icon, index) => (
-      <div key={`original-${index}`} className="icon-item mx-5">
-        <Icon size={50} className="transition-all transform" />
-      </div>
-    ))}
-    {/* Duplicate icons for seamless scrolling */}
-    {[
-      LuFigma, SiCoreldraw, SiAdobeillustrator, SiAdobeaftereffects, 
-      SiAdobepremierepro, SiWondersharefilmora, FaReact, FaVuejs, 
-      SiTailwindcss, RiNextjsFill, FaBootstrap, FaGitAlt, SiAdobephotoshop, 
-      FaGolang, SiTypescript, IoLogoVercel, SiVisualstudiocode, SiMysql, SiNotion
-    ].map((Icon, index) => (
-      <div key={`duplicate-${index}`} className="icon-item mx-5">
-        <Icon size={50} className="transition-all transform" />
-      </div>
-    ))}
-  </Marquee>
-</div>
-
+          <div className="mx-auto mt-6 max-w-4xl overflow-x-hidden mb-20">
+            <Marquee speed={50} gradient={false}>
+              {[
+                LuFigma,
+                SiCoreldraw,
+                SiAdobeillustrator,
+                SiAdobeaftereffects,
+                SiAdobepremierepro,
+                SiWondersharefilmora,
+                FaReact,
+                FaVuejs,
+                SiTailwindcss,
+                RiNextjsFill,
+                FaBootstrap,
+                FaGitAlt,
+                SiAdobephotoshop,
+                FaGolang,
+                SiTypescript,
+                IoLogoVercel,
+                SiVisualstudiocode,
+                SiMysql,
+                SiNotion,
+              ].map((Icon, index) => (
+                <div key={`original-${index}`} className="icon-item mx-5">
+                  <Icon size={50} className="transition-all transform" />
+                </div>
+              ))}
+              {/* Duplicate icons for seamless scrolling */}
+              {[
+                LuFigma,
+                SiCoreldraw,
+                SiAdobeillustrator,
+                SiAdobeaftereffects,
+                SiAdobepremierepro,
+                SiWondersharefilmora,
+                FaReact,
+                FaVuejs,
+                SiTailwindcss,
+                RiNextjsFill,
+                FaBootstrap,
+                FaGitAlt,
+                SiAdobephotoshop,
+                FaGolang,
+                SiTypescript,
+                IoLogoVercel,
+                SiVisualstudiocode,
+                SiMysql,
+                SiNotion,
+              ].map((Icon, index) => (
+                <div key={`duplicate-${index}`} className="icon-item mx-5">
+                  <Icon size={50} className="transition-all transform" />
+                </div>
+              ))}
+            </Marquee>
+          </div>
         </section>
       </section>
 

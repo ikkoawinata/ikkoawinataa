@@ -35,7 +35,7 @@ const icons = [
     name: <RiGithubFill />,
   },
   {
-    path: "https://www.behance.net/gallery/198231291/Sengoku-Basara-(UI-Design)",
+    path: "https://www.behance.net/AwinataX",
     name: <RiBehanceFill />,
   },
   {

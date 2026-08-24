@@ -1,4 +1,3 @@
-
 "use client"; // This should be the first lin
 
 import React, { useState, useEffect, useRef } from "react";
@@ -11,14 +10,12 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Kartu from "@/components/Kartu";
 
-
 const posts = [
-   {
+  {
     id: 39,
     title: "COMING SOON",
     href: "./",
-    description:
-      "",
+    description: "",
     date: "",
     datetime: "",
     category: { title: "", href: "" },
@@ -28,10 +25,31 @@ const posts = [
       href: "",
       imageUrl: "./hero/COMING.png", // Gambar placeholder
     },
-     // marketingTags: ["Reactjs", "Tailwind", "Postman"], //
+    // marketingTags: ["Reactjs", "Tailwind", "Postman"], //
   },
 
-   {
+  {
+    id: 39,
+    title: "SPARRING",
+    href: "https://www.behance.net/gallery/254080921/SPARRING",
+    description:
+      "Connecting players through matches, communities, and shared passion for sports.",
+    date: "2026",
+    datetime: "",
+    category: {
+      title: "More",
+      href: "https://www.behance.net/gallery/254080921/SPARRING",
+    },
+    author: {
+      name: "Michael Foster",
+      role: "Co-Founder / CTO",
+      href: "https://www.behance.net/gallery/254080921/SPARRING",
+      imageUrl: "./hero/sparring.png", // Gambar placeholder
+    },
+    marketingTags: ["Figma"], //
+  },
+
+  {
     id: 38,
     title: "SIOPTIMA (Sistem Terintegrasi dan Monitoring IPAL)",
     href: "https://github.com/sioptima/SIOPTIMA",
@@ -46,10 +64,17 @@ const posts = [
       href: "",
       imageUrl: "./hero/sioptima.png", // Gambar placeholder
     },
-    marketingTags: ["ReactJS", "Tailwind", "Postman", "LeafletJS", "ExpressJS", "PostgreSQL"], //
+    marketingTags: [
+      "ReactJS",
+      "Tailwind",
+      "Postman",
+      "LeafletJS",
+      "ExpressJS",
+      "PostgreSQL",
+    ], //
   },
 
-   {
+  {
     id: 36,
     title: "Hand Tracking Audio Volume Controller",
     href: "./",
@@ -57,34 +82,37 @@ const posts = [
       "A Python project that allows you to control your system’s audio volume using hand gestures detected via webcam.",
     date: "2025",
     datetime: "",
-    category: { title: "More", href: "https://github.com/ikkoawinata/HandTrackingAudioVolumeController" },
+    category: {
+      title: "More",
+      href: "https://github.com/ikkoawinata/HandTrackingAudioVolumeController",
+    },
     author: {
       name: "Michael Foster",
       role: "Co-Founder / CTO",
       href: "./hero/handtrack.jpg",
       imageUrl: "./hero/handtrack.jpg", // Gambar placeholder
     },
-       marketingTags: ["Python", "MediaPipe", "PyCaw", "OpenCV"], //
+    marketingTags: ["Python", "MediaPipe", "PyCaw", "OpenCV"], //
   },
-   
+
   {
     id: 35,
     title: "Bengkel Motor AAN Official Website",
     href: "./",
     description:
-        "Development of a responsive website for AAN Motorcycle Workshop, designed to promote services, provide repair information, and facilitate customer bookings.",
+      "Development of a responsive website for AAN Motorcycle Workshop, designed to promote services, provide repair information, and facilitate customer bookings.",
     date: "2025",
     datetime: "",
-   category: { title: "More", href: "https://bengkel-motor-aan.vercel.app/" },
+    category: { title: "More", href: "https://bengkel-motor-aan.vercel.app/" },
     author: {
       name: "Michael Foster",
       role: "Co-Founder / CTO",
       href: "",
       imageUrl: "./hero/port-bengkel.png", // Gambar placeholder
     },
-        marketingTags: ["ReactJS", "Tailwind", "Framer Motion", "NextJS"], //
+    marketingTags: ["ReactJS", "Tailwind", "Framer Motion", "NextJS"], //
   },
- {
+  {
     id: 34,
     title: "Ikko Awinata Cell Official Website",
     href: "./des",
@@ -99,7 +127,7 @@ const posts = [
       href: "",
       imageUrl: "./hero/P7.png", // Gambar placeholder
     },
-       marketingTags: ["ReactJS", "Tailwind", "Framer Motion", "NextJS"], //
+    marketingTags: ["ReactJS", "Tailwind", "Framer Motion", "NextJS"], //
   },
   {
     id: 30,
@@ -120,10 +148,11 @@ const posts = [
   },
   {
     id: 33,
-    title: "Fat Track (Food Analysis Tool for Tracking Calories and Carbohydrates)",
+    title:
+      "Fat Track (Food Analysis Tool for Tracking Calories and Carbohydrates)",
     href: "./project-bangkit",
     description:
-      'Fat Track is an AI-based application that helps users monitor their daily food content by recognizing images of food captured by the user and displaying the nutritional content of the food. Fat Track will display information such as calories, protein, fat, and carbohydrates of the food, which will then be stored to track the nutritional intake of the users daily meals',
+      "Fat Track is an AI-based application that helps users monitor their daily food content by recognizing images of food captured by the user and displaying the nutritional content of the food. Fat Track will display information such as calories, protein, fat, and carbohydrates of the food, which will then be stored to track the nutritional intake of the users daily meals",
     date: "2024",
     datetime: "2022-06-25",
     category: { title: "More", href: "./project-bangkit" },
@@ -133,7 +162,18 @@ const posts = [
       href: "",
       imageUrl: "./hero/bangkitp.jpeg", // Gambar placeholder
     },
-    marketingTags: ["TensorFlow","Kotlin", "FastAPI", "Firebase", "NodeJS", "Google Cloud Platform", "HapiJS", "AndroidJetpack", "JUnit", "Retrofit"], // Menambahkan tag marketing sebagai contoh
+    marketingTags: [
+      "TensorFlow",
+      "Kotlin",
+      "FastAPI",
+      "Firebase",
+      "NodeJS",
+      "Google Cloud Platform",
+      "HapiJS",
+      "AndroidJetpack",
+      "JUnit",
+      "Retrofit",
+    ], // Menambahkan tag marketing sebagai contoh
   },
   {
     id: 1,
@@ -316,7 +356,7 @@ const posts = [
     },
     marketingTags: ["Bootstrap"], // Menambahkan tag marketing sebagai contoh
   },
-  
+
   {
     id: 12,
     title: "Second Personal Website Development",
@@ -342,7 +382,10 @@ const posts = [
       "This project was created using ReactJS and Tailwind framework. This project is to convert money from several currencies in the world",
     date: "2024",
     datetime: "2024-08  -10",
-    category: { title: "More", href: "https://ikkoawinata.github.io/matauang/" },
+    category: {
+      title: "More",
+      href: "https://ikkoawinata.github.io/matauang/",
+    },
     author: {
       name: "Michael Foster",
       role: "Co-Founder / CTO",
@@ -351,7 +394,6 @@ const posts = [
     },
     marketingTags: ["ReactJS", "Tailwind"], // Menambahkan tag marketing sebagai contoh
   },
-
 
   {
     id: 10,
@@ -370,7 +412,6 @@ const posts = [
     },
     marketingTags: ["Cisco Packet Tracer"], // Menambahkan tag marketing sebagai contoh
   },
-
 
   {
     id: 11,
@@ -404,7 +445,7 @@ const posts = [
       href: "",
       imageUrl: "./hero/crud1.jpeg", // Gambar placeholder
     },
-    marketingTags: ["Bootstrap","MySQL"], // Menambahkan tag marketing sebagai contoh
+    marketingTags: ["Bootstrap", "MySQL"], // Menambahkan tag marketing sebagai contoh
   },
 
   {
@@ -475,9 +516,8 @@ const posts = [
       imageUrl: "./hero/port4.jpg", // Gambar placeholder
     },
     marketingTags: ["CorelDraw"], // Menambahkan tag marketing sebagai contoh
-  }
-
-  ];
+  },
+];
 
 // const design = [
 //   {
@@ -566,45 +606,42 @@ const posts = [
 //     marketingTags: ["CorelDraw"], // Menambahkan tag marketing sebagai contoh
 //   },
 
-  
 // ];
-
 
 const blog = [
   {
     // id: 32,
-    title: "Tutorial on Anchor Links Text in Medium Platform with Ease", 
+    title: "Tutorial on Anchor Links Text in Medium Platform with Ease",
     // href: "./design1",
     description:
-      'Want to create an Anchor Link on Medium so readers can jump directly to a specific section of your article? Here are some easy steps! Pay close attention and read carefully.',
+      "Want to create an Anchor Link on Medium so readers can jump directly to a specific section of your article? Here are some easy steps! Pay close attention and read carefully.",
     date: "31 January 2025",
     datetime: "",
-    category: { title: "Read More", href: "./Tutorial-Anchor-Link-Text-Medium" },
-    author: {
-    }
+    category: {
+      title: "Read More",
+      href: "./Tutorial-Anchor-Link-Text-Medium",
     },
+    author: {},
+  },
   {
     // id: 32,
-    title: "Starting New Journey as Machine Learning Cohort at Bangkit Academy 2024 (Batch 2)", 
+    title:
+      "Starting New Journey as Machine Learning Cohort at Bangkit Academy 2024 (Batch 2)",
     // href: "./design1",
     description:
-      'Hello... Through this article, I would like to share my experience as one of the participants in the Machine Learning Cohort of the Certified Independent Study Program (MSIB 7) Bangkit Academy 2024 (Batch 2).',
+      "Hello... Through this article, I would like to share my experience as one of the participants in the Machine Learning Cohort of the Certified Independent Study Program (MSIB 7) Bangkit Academy 2024 (Batch 2).",
     date: "29 January 2025",
     datetime: "",
     category: { title: "Read More", href: "./Pengalaman-MSIB-Bangkit" },
-    author: {
-    }
-    },
+    author: {},
+  },
 ];
-
-
 
 const photography = [
   {
     id: 17,
     title: "",
-    description:
-      '',
+    description: "",
     date: "",
     datetime: "2024-08-10",
     category: { title: "More", href: "" },
@@ -612,13 +649,12 @@ const photography = [
       name: "Michael Foster",
       role: "Co-Founder / CTO",
       imageUrl: "./hero/satu.jpg", // Gambar placeholder
-    } // Menambahkan tag marketing sebagai contoh
+    }, // Menambahkan tag marketing sebagai contoh
   },
   {
     id: 18,
     title: " ",
-    description:
-      '',
+    description: "",
     date: "",
     datetime: "2024-08  -10",
     category: { title: "More", href: "" },
@@ -626,13 +662,12 @@ const photography = [
       name: "Michael Foster",
       role: "Co-Founder / CTO",
       imageUrl: "./hero/dua.jpg", // Gambar placeholder
-    } // Menambahkan tag marketing sebagai contoh
+    }, // Menambahkan tag marketing sebagai contoh
   },
   {
     id: 19,
     title: " ",
-    description:
-      '',
+    description: "",
     date: "",
     datetime: "2024-08  -10",
     category: { title: "More", href: "" },
@@ -640,13 +675,12 @@ const photography = [
       name: "Michael Foster",
       role: "Co-Founder / CTO",
       imageUrl: "./hero/tiga.jpg", // Gambar placeholder
-    } // Menambahkan tag marketing sebagai contoh
+    }, // Menambahkan tag marketing sebagai contoh
   },
   {
     id: 20,
     title: " ",
-    description:
-      '',
+    description: "",
     date: "",
     datetime: "2024-08  -10",
     category: { title: "More", href: "" },
@@ -654,13 +688,12 @@ const photography = [
       name: "Michael Foster",
       role: "Co-Founder / CTO",
       imageUrl: "./hero/empat.jpg", // Gambar placeholder
-    } // Menambahkan tag marketing sebagai contoh
+    }, // Menambahkan tag marketing sebagai contoh
   },
   {
     id: 21,
     title: " ",
-    description:
-      '',
+    description: "",
     date: "",
     datetime: "2024-08  -10",
     category: { title: "More", href: "" },
@@ -668,13 +701,12 @@ const photography = [
       name: "Michael Foster",
       role: "Co-Founder / CTO",
       imageUrl: "./hero/lima.jpg", // Gambar placeholder
-    } // Menambahkan tag marketing sebagai contoh
+    }, // Menambahkan tag marketing sebagai contoh
   },
   {
     id: 22,
     title: " ",
-    description:
-      '',
+    description: "",
     date: "",
     datetime: "2024-08  -10",
     category: { title: "More", href: "" },
@@ -682,13 +714,12 @@ const photography = [
       name: "Michael Foster",
       role: "Co-Founder / CTO",
       imageUrl: "./hero/enam.jpg", // Gambar placeholder
-    } // Menambahkan tag marketing sebagai contoh
+    }, // Menambahkan tag marketing sebagai contoh
   },
   {
     id: 23,
     title: " ",
-    description:
-      '',
+    description: "",
     date: "",
     datetime: "2024-08  -10",
     category: { title: "More", href: "" },
@@ -696,13 +727,12 @@ const photography = [
       name: "Michael Foster",
       role: "Co-Founder / CTO",
       imageUrl: "./hero/tujuh.png", // Gambar placeholder
-    } // Menambahkan tag marketing sebagai contoh
+    }, // Menambahkan tag marketing sebagai contoh
   },
   {
     id: 24,
     title: " ",
-    description:
-      '',
+    description: "",
     date: "",
     datetime: "2024-08  -10",
     category: { title: "More", href: "" },
@@ -710,13 +740,12 @@ const photography = [
       name: "Michael Foster",
       role: "Co-Founder / CTO",
       imageUrl: "./hero/delapan.jpg", // Gambar placeholder
-    } // Menambahkan tag marketing sebagai contoh
+    }, // Menambahkan tag marketing sebagai contoh
   },
   {
     id: 25,
     title: " ",
-    description:
-      '',
+    description: "",
     date: "",
     datetime: "2024-08  -10",
     category: { title: "More", href: "" },
@@ -724,13 +753,12 @@ const photography = [
       name: "Michael Foster",
       role: "Co-Founder / CTO",
       imageUrl: "./hero/sembilan.jpg", // Gambar placeholder
-    } // Menambahkan tag marketing sebagai contoh
+    }, // Menambahkan tag marketing sebagai contoh
   },
   {
     id: 26,
     title: " ",
-    description:
-      '',
+    description: "",
     date: "",
     datetime: "2024-08  -10",
     category: { title: "More", href: "" },
@@ -738,13 +766,12 @@ const photography = [
       name: "Michael Foster",
       role: "Co-Founder / CTO",
       imageUrl: "./hero/sepuluh.jpg", // Gambar placeholder
-    } // Menambahkan tag marketing sebagai contoh
+    }, // Menambahkan tag marketing sebagai contoh
   },
   {
     id: 27,
     title: " ",
-    description:
-      '',
+    description: "",
     date: "",
     datetime: "2024-08  -10",
     category: { title: "More", href: "" },
@@ -752,13 +779,12 @@ const photography = [
       name: "Michael Foster",
       role: "Co-Founder / CTO",
       imageUrl: "./hero/sebelas.jpg", // Gambar placeholder
-    } // Menambahkan tag marketing sebagai contoh
+    }, // Menambahkan tag marketing sebagai contoh
   },
   {
     id: 28,
     title: " ",
-    description:
-      '',
+    description: "",
     date: "",
     datetime: "2024-08  -10",
     category: { title: "More", href: "" },
@@ -766,13 +792,12 @@ const photography = [
       name: "Michael Foster",
       role: "Co-Founder / CTO",
       imageUrl: "./hero/duabelas.jpeg", // Gambar placeholder
-    } // Menambahkan tag marketing sebagai contoh
+    }, // Menambahkan tag marketing sebagai contoh
   },
   {
     id: 34,
     title: " ",
-    description:
-      '',
+    description: "",
     date: "",
     datetime: "2024-08  -10",
     category: { title: "More", href: "" },
@@ -780,14 +805,13 @@ const photography = [
       name: "Michael Foster",
       role: "Co-Founder / CTO",
       imageUrl: "./hero/grahapena.jpeg", // Gambar placeholder
-    } // Menambahkan tag marketing sebagai contoh
+    }, // Menambahkan tag marketing sebagai contoh
   },
 
-     {
+  {
     id: 37,
     title: " ",
-    description:
-      '',
+    description: "",
     date: "",
     datetime: "2024-08  -10",
     category: { title: "More", href: "" },
@@ -795,9 +819,8 @@ const photography = [
       name: "Michael Foster",
       role: "Co-Founder / CTO",
       imageUrl: "./hero/fotog1.jpg", // Gambar placeholder
-    } // Menambahkan tag marketing sebagai contoh
+    }, // Menambahkan tag marketing sebagai contoh
   },
- 
 ];
 
 export default function Example() {
@@ -821,69 +844,67 @@ export default function Example() {
     });
   }, [activeSection]);
 
-    return (
-      <div className="font-tentang flex flex-col min-h-screen">
-        <main className="font-tentang flex-grow py-10 sm:py-20">
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto max-w-2xl lg:mx-0">
-              <h2 className="text-[16px] pt-[12px] font-normal tracking-tight text-gray-700 dark:text-gray-100">
-                A showreel of my personal projects and work that I have done for various.
-              </h2>
-              <div className="mt-4">
-                <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-                  <Button
-                    className={`button ${activeSection === "projects" ? "active" : ""}`}
-                    onClick={() => handleButtonClick("projects")}
-                  >
-                    All My Projects
-                  </Button>
-                  <Button
-                    className={`button ${activeSection === "blog" ? "active" : ""}`}
-                    onClick={() => handleButtonClick("blog")}
-                  >
-                    Blog
-                  </Button>
-                  {/* <Button
+  return (
+    <div className="font-tentang flex flex-col min-h-screen">
+      <main className="font-tentang flex-grow py-10 sm:py-20">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl lg:mx-0">
+            <h2 className="text-[16px] pt-[12px] font-normal tracking-tight text-gray-700 dark:text-gray-100">
+              A showreel of my personal projects and work that I have done for
+              various.
+            </h2>
+            <div className="mt-4">
+              <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+                <Button
+                  className={`button ${activeSection === "projects" ? "active" : ""}`}
+                  onClick={() => handleButtonClick("projects")}
+                >
+                  All My Projects
+                </Button>
+                <Button
+                  className={`button ${activeSection === "blog" ? "active" : ""}`}
+                  onClick={() => handleButtonClick("blog")}
+                >
+                  Blog
+                </Button>
+                {/* <Button
                     className={`button ${activeSection === "photos" ? "active" : ""}`}
                     onClick={() => handleButtonClick("photos")}
                   >
                     Design
                   </Button> */}
-                  <Button
-                    className={`button ${activeSection === "photography" ? "active" : ""}`}
-                    onClick={() => handleButtonClick("photography")}
-                  >
-                    Photography
-                  </Button>
-                </div>
+                <Button
+                  className={`button ${activeSection === "photography" ? "active" : ""}`}
+                  onClick={() => handleButtonClick("photography")}
+                >
+                  Photography
+                </Button>
               </div>
             </div>
-            <div className="font tentang mx-auto mt-6 grid max-w-2xl gap-x-8 gap-y-16 pt-2 sm:mt-3 sm:pt-2 lg:mx-0 lg:max-w-none lg:grid-cols-4">
-              {activeSection === "projects" &&
-                posts.map((post, index) => (
-                  <Card
-                    key={post.id}
-                    post={post}
-                    ref={(el) => (cardRefs.current[index] = el)}
-                    className={`card-container opacity-0 ${selectedCardId === post.id ? 'selected' : ''}`}
-                    onClick={() => handleCardClick(post.id)}
-                  />
-                ))}
+          </div>
+          <div className="font tentang mx-auto mt-6 grid max-w-2xl gap-x-8 gap-y-16 pt-2 sm:mt-3 sm:pt-2 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+            {activeSection === "projects" &&
+              posts.map((post, index) => (
+                <Card
+                  key={post.id}
+                  post={post}
+                  ref={(el) => (cardRefs.current[index] = el)}
+                  className={`card-container opacity-0 ${selectedCardId === post.id ? "selected" : ""}`}
+                  onClick={() => handleCardClick(post.id)}
+                />
+              ))}
 
-                {/* ASLIIIINYA */}
-              {/* {activeSection === "blog" && (
+            {/* ASLIIIINYA */}
+            {/* {activeSection === "blog" && (
                 <div className="text-gray-600 dark:text-gray-400 font-tentang">
                   <h3 className="text-lg font-semibold font-tentang ">Blog Content Here</h3>
                   <p>Coming Soon :) </p>
             
                 </div>
               )} */}
-              {/* {/* ASLIIIINYA */}
+            {/* {/* ASLIIIINYA */}
 
-
-
-                            
-              {/* {activeSection === "blog" &&
+            {/* {activeSection === "blog" &&
                 blog.map((post, index) => (
                   <Card
                     key={post.id}
@@ -899,75 +920,63 @@ export default function Example() {
                 ))
               }; */}
 
+            {activeSection === "blog" &&
+              blog.map((post, index) => (
+                <Kartu
+                  key={post.id}
+                  post={post}
+                  ref={(el) => (cardRefs.current[index] = el)}
+                  className={`card-container opacity-0 ${selectedCardId === post.id ? "selected" : ""}`}
+                  onClick={() => handleCardClick(post.id)}
+                >
+                  <h3>{post.title}</h3>
+                  <p>{post.description}</p>
+                  <p>{post.date}</p>
+                </Kartu>
+              ))}
 
-              
-              {activeSection === "blog" &&
-                blog.map((post, index) => (
-                  <Kartu
-                    key={post.id}
-                    post={post}
-                    ref={(el) => (cardRefs.current[index] = el)}
-                    className={`card-container opacity-0 ${selectedCardId === post.id ? 'selected' : ''}`}
-                    onClick={() => handleCardClick(post.id)}
-                  >
-                    <h3>{post.title}</h3>
-                    <p>{post.description}</p>
-                    <p>{post.date}</p>
-                  </Kartu>
-                ))
-              }
-
-
-
-
-
-                  
-
-
-
-  
-              {activeSection === "photos" &&
-                design.map((post, index) => (
-                  <Card
-                    key={post.id}
-                    post={post}
-                    ref={(el) => (cardRefs.current[index] = el)}
-                    className={`card-container opacity-0 ${selectedCardId === post.id ? 'selected' : ''}`}
-                    onClick={() => handleCardClick(post.id)}
-                  />
-                ))}
-              {activeSection === "photography" &&
-                photography.map((post, index) => (
-                  <div
-                    key={post.id}
-                    ref={(el) => (cardRefs.current[index] = el)}
-                    className={`card-container opacity-0 ${selectedCardId === post.id ? 'selected' : ''}`}
-                  >
-                    <a href={post.href}>
-                      <img
-                        src={post.author.imageUrl}
-                        alt={post.title}
-                        className="card-image w-full h-full rounded-md"
-                      />
-                    </a>
-                  </div>
-                ))}
-            </div>
-            {selectedCardId === 10 && (
-              <section className=" font-tentang mt-6 p-4 border rounded-lg bg-gray-100">
-                <h3 className="text-lg font-semibold">
-                  Detailed View of Computer Project
-                </h3>
-                <p>
-                  This detailed view provides additional insights into the
-                  Computer project, which involves designing a school computer
-                  network. You can explore the network topology, learn about the
-                  services included, and understand the overall infrastructure.
-                </p>
-              </section>
-            )}
+            {activeSection === "photos" &&
+              design.map((post, index) => (
+                <Card
+                  key={post.id}
+                  post={post}
+                  ref={(el) => (cardRefs.current[index] = el)}
+                  className={`card-container opacity-0 ${selectedCardId === post.id ? "selected" : ""}`}
+                  onClick={() => handleCardClick(post.id)}
+                />
+              ))}
+            {activeSection === "photography" &&
+              photography.map((post, index) => (
+                <div
+                  key={post.id}
+                  ref={(el) => (cardRefs.current[index] = el)}
+                  className={`card-container opacity-0 ${selectedCardId === post.id ? "selected" : ""}`}
+                >
+                  <a href={post.href}>
+                    <img
+                      src={post.author.imageUrl}
+                      alt={post.title}
+                      className="card-image w-full h-full rounded-md"
+                    />
+                  </a>
+                </div>
+              ))}
           </div>
-        </main>
-      </div>
-    );
-  }
+          {selectedCardId === 10 && (
+            <section className=" font-tentang mt-6 p-4 border rounded-lg bg-gray-100">
+              <h3 className="text-lg font-semibold">
+                Detailed View of Computer Project
+              </h3>
+              <p>
+                This detailed view provides additional insights into the
+                Computer project, which involves designing a school computer
+                network. You can explore the network topology, learn about the
+                services included, and understand the overall infrastructure.
+              </p>
+            </section>
+          )}
+        </div>
+      </main>
+    </div>
+  );
+}

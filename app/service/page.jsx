@@ -188,23 +188,18 @@ import { motion } from "framer-motion";
 import "./styles.css"; // Import the CSS file
 import PricingSlider from "@/components/PricingSlider.jsx"; // Sesuaikan dengan lokasi file
 
-
 function Services() {
   return (
     <div>
       {/* Existing section */}
       <div className=" relative flex justify-center items-center min-h-[90vh] bg-orange-50 dark:bg-primary-foreground text-black dark:text-white">
-
-
-
-
-    {/* GRADAAAAADAAAAAASSSSSIIIIIIIIIIIII */}
-      {/* <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-orange-200 to-transparent dark:from-primary dark:to-transparent"></div> */}
+        {/* GRADAAAAADAAAAAASSSSSIIIIIIIIIIIII */}
+        {/* <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-orange-200 to-transparent dark:from-primary dark:to-transparent"></div> */}
         <div className="flex flex-col lg:flex-row w-full max-w-3xl p-4">
           {/* Gambar di sebelah kiri atau di atas pada breakpoints kecil */}
           <div className="flex-none w-full lg:w-1/2 p-2">
             <img
-              src="./hero/katalog.png"
+              src="./hero/welcomeikko.png"
               alt="IKKO Awinata Cell Services"
               className="rounded-lg w-full"
             />
@@ -217,66 +212,42 @@ function Services() {
               provide solutions to your various needs.
             </p>
             <p className="mb-4 text-sm text-justify">
-               Services I offer Digital Services (include: typing, photo editing, design, making PPT, etc) credit sales, and
-              E-Wallet top-up.
+              Services I offer Digital Services (include: typing, photo editing,
+              design, making PPT, etc) credit sales, E-Wallet top-up, editing
+              video, etc.
             </p>
             <p className="mb-8 text-sm text-justify">
               Thank you for your attention
             </p>
-             <div>
+            <div>
               <p className="font-bold text-md">Author</p>
-              <p className="text-xl mb-4">Ikko Awinata Cell</p> {/* Tambahkan margin-bottom di sini */}
-              
+              <p className="text-xl mb-4">Ikko Awinata Cell</p>{" "}
+              {/* Tambahkan margin-bottom di sini */}
               {/* TOMBOL START PROJECT BARU */}
-              <Button asChild className=" bg-amber-300 text-gray-900 font-bold uppercase flex items-center gap-x-2">
-                <a href="https://ikkoawinatacell.vercel.app/"> {/* Ganti "/contact" dengan link yang Anda inginkan */}
+              <Button
+                asChild
+                className=" bg-amber-300 text-gray-900 font-bold uppercase flex items-center gap-x-2"
+              >
+                <a href="https://ikkoawinatacell.vercel.app/">
+                  {" "}
+                  {/* Ganti "/contact" dengan link yang Anda inginkan */}
                   Start a project
                 </a>
               </Button>
             </div>
-
-           
           </div>
-           <div className="absolute left-1/2 bottom-10 transform -translate-x-1/2 animate-bounce">
-              <RiArrowDownSLine className="text-3xl text-primary dark:text-primary-dark" />
-            </div>
-            
-         
+          <div className="absolute left-1/2 bottom-10 transform -translate-x-1/2 animate-bounce">
+            <RiArrowDownSLine className="text-3xl text-primary dark:text-primary-dark" />
+          </div>
         </div>
       </div>
 
-                
-{/* TESTIMONI (Proof of Order) */}
-<div className="py-16 bg-orange-50 dark:bg-transparent rounded-bl-[100px] rounded-br-[100px]">
-  
- <PricingSlider />
-    
-    
-  </div>
+      {/* TESTIMONI (Proof of Order) */}
+      <div className="py-16 bg-orange-50 dark:bg-transparent rounded-bl-[100px] rounded-br-[100px]">
+        <PricingSlider />
+      </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     {/* Services section: Stacked list layout */}
+      {/* Services section: Stacked list layout */}
       <div className=" font-tentang py-16 bg-white dark:bg-gray-800">
         <div className="w-full max-w-6xl mx-auto px-4">
           <h2 className=" font-serif text-3xl font-bold text-start mb-6 text-black dark:text-white">
@@ -297,8 +268,8 @@ function Services() {
 
               <div className="p-6 flex-1">
                 <h3 className="text-lg font-bold text-gray-800 dark:text-gray-200 mb-3">
-                  Change color *tie only / change color *suit only
-                / change color *suit+tie
+                  Change color *tie only / change color *suit only / change
+                  color *suit+tie
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                   - The final result is in JPEG/JPG/PNG format
@@ -332,8 +303,8 @@ function Services() {
               />
               <div className=" font-tentang p-6 flex-1">
                 <h3 className="text-lg font-bold text-gray-800 dark:text-gray-200 mb-3">
-                  Photo Edit Wear Almameter Jacket Only or Change Clothes
-                  Color, Hijab and others
+                  Photo Edit Wear Almameter Jacket Only or Change Clothes Color,
+                  Hijab and others
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                   - The final result is in JPEG/JPG/PNG format
@@ -412,8 +383,7 @@ function Services() {
               />
               <div className="p-6 flex-1">
                 <h3 className="text-lg font-bold text-gray-800 dark:text-gray-200 mb-3">
-                  Edit photos add a tie only or add suit +
-                  tie 
+                  Edit photos add a tie only or add suit + tie
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
                   - The final result is in JPEG/JPG/PNG format
@@ -436,8 +406,10 @@ function Services() {
       </div>
 
       {/* Services ONLINE TYPING: Stacked list layout */}
-      <div className="rounded-bl-[100px] rounded-tr-[100px]
- font-tentang py-16 pt-10 bg-orange-50 dark:bg-gray-950">
+      <div
+        className="rounded-bl-[100px] rounded-tr-[100px]
+ font-tentang py-16 pt-10 bg-orange-50 dark:bg-gray-950"
+      >
         <div className="w-full max-w-6xl mx-auto px-4">
           <h2 className=" font-serif text-3xl font-bold text-start mb-6 text-black dark:text-white">
             Online Typing Services
@@ -529,10 +501,12 @@ function Services() {
               />
               <div className="p-6 flex-1">
                 <h3 className="text-lg font-bold text-gray-800 dark:text-gray-200 mb-3">
-                Making Invitations
+                  Making Invitations
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
-                We provide invitation making services for various events such as tahlilan, selapan, etc., with attractive designs and formats that suit your needs.
+                  We provide invitation making services for various events such
+                  as tahlilan, selapan, etc., with attractive designs and
+                  formats that suit your needs.
                 </p>
                 <Button
                   className="mt-4 px-3 py-2 bg-primary text-white rounded-xl transition transform group-hover:scale-105"
@@ -552,13 +526,12 @@ function Services() {
               />
               <div className="p-6 flex-1">
                 <h3 className="text-lg font-bold text-gray-800 dark:text-gray-200 mb-3">
-                Tidying up Document Text
+                  Tidying up Document Text
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
-                Helps ensure your documents are free of typos
-               and inconsistent format, with neat and
-                  professional, making it easier for readers and improve
-                  the quality of your written presentation.
+                  Helps ensure your documents are free of typos and inconsistent
+                  format, with neat and professional, making it easier for
+                  readers and improve the quality of your written presentation.
                 </p>
                 <Button
                   className="mt-4 px-3 py-2 bg-primary text-white rounded-xl transition transform group-hover:scale-105"
@@ -581,7 +554,8 @@ function Services() {
                   Retyping
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
-                Helps accurately retype your documents, ensuring every detail is recorded clearly and in consistent format
+                  Helps accurately retype your documents, ensuring every detail
+                  is recorded clearly and in consistent format
                 </p>
                 <Button
                   className="mt-4 px-3 py-2 bg-primary text-white rounded-xl transition transform group-hover:scale-105"
@@ -621,8 +595,9 @@ function Services() {
               {/* Teks di sebelah kanan atau di bawah pada breakpoints kecil */}
               <div className=" font-tentangflex-auto p-2 mt-6 lg:mt-0 relative items-center">
                 <p className="mx-auto text-lg text-justify">
-                  Services I offer Digital Services (include: typing, photo editing, design, making PPT, etc) credit sales, and
-                  E-Wallet top-up).
+                  Services I offer Digital Services (include: typing, photo
+                  editing, design, making PPT, etc) credit sales, and E-Wallet
+                  top-up).
                 </p>
                 <div>
                   <img src="./hero/byr.png" alt="" className="w-full mt-14" />
@@ -637,7 +612,9 @@ function Services() {
                   className="mt-4 px-2 py-1 bg-primary text-white rounded-xl transition transform group-hover:scale-105"
                   href="https://ikkoawinatacell.vercel.app/"
                 >
-                  <a href="https://ikkoawinatacell.vercel.app/">Cek Semua Produk</a>
+                  <a href="https://ikkoawinatacell.vercel.app/">
+                    Cek Semua Produk
+                  </a>
                 </Button>
               </div>
             </div>
@@ -645,18 +622,7 @@ function Services() {
         </div>
       </div>
     </div>
-
-
-
-
-
-
   );
-
-
-
-
-  
 }
 
 export default Services;
