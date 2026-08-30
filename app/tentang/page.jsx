@@ -711,11 +711,6 @@ const BrandingSection = () => {
                     No.
                   </th>
 
-                  {/* Date */}
-                  <th className="px-4 py-2 border font-tentang border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300">
-                    Date
-                  </th>
-
                   {/* Role */}
                   <th className="px-4 py-2 border font-tentang border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300">
                     Role
@@ -725,42 +720,19 @@ const BrandingSection = () => {
                   <th className="px-4 py-2 border font-tentang border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300">
                     Company
                   </th>
+
+                  {/* Date */}
+                  <th className="px-4 py-2 border font-tentang border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300">
+                    Date
+                  </th>
                 </tr>
               </thead>
 
               <tbody>
-                {/* 1 */}
-                <tr>
-                  <td className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100 text-center">
-                    1
-                  </td>
-
-                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
-                    August 2026 - Present
-                  </td>
-
-                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
-                    Graphic Designer
-                  </td>
-
-                  <td className="font-tentang px-4 py-2 border underline border-gray-300 dark:border-gray-700 text-gray-500 dark:text-gray-400">
-                    <a
-                      href="https://www.instagram.com/millenialzkece.official/"
-                      className="black"
-                    >
-                      Millenialzkece Team
-                    </a>
-                  </td>
-                </tr>
-
                 {/* 2 */}
                 <tr>
                   <td className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100 text-center">
                     2
-                  </td>
-
-                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
-                    May 2026
                   </td>
 
                   <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
@@ -772,16 +744,16 @@ const BrandingSection = () => {
                       Kedai Rindu Kangen
                     </a>
                   </td>
+
+                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+                    May 2026
+                  </td>
                 </tr>
 
                 {/* 3 */}
                 <tr>
                   <td className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100 text-center">
                     3
-                  </td>
-
-                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
-                    August 2025 - October 2025
                   </td>
 
                   <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
@@ -796,16 +768,16 @@ const BrandingSection = () => {
                       Millenialzkece Team
                     </a>
                   </td>
+
+                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+                    August 2025 - October 2025
+                  </td>
                 </tr>
 
                 {/* 4 */}
                 <tr>
                   <td className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100 text-center">
                     4
-                  </td>
-
-                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
-                    February 2025 - June 2025
                   </td>
 
                   <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
@@ -820,6 +792,10 @@ const BrandingSection = () => {
                       Kepolisian Daerah Jawa Timur (Polda Jatim)
                     </a>
                   </td>
+
+                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+                    February 2025 - June 2025
+                  </td>
                 </tr>
 
                 {/* 5 */}
@@ -829,10 +805,6 @@ const BrandingSection = () => {
                     rowSpan={2}
                   >
                     5
-                  </td>
-
-                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
-                    February 2025 – March 2025
                   </td>
 
                   <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
@@ -850,15 +822,19 @@ const BrandingSection = () => {
                       PT. Renjana Sinergi Indonesia
                     </a>
                   </td>
+
+                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+                    February 2025 – March 2025
+                  </td>
                 </tr>
 
                 <tr>
                   <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
-                    January 2025 – March 2025
+                    Ads Creative – Serena Hills Puncak Project
                   </td>
 
                   <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
-                    Ads Creative – Serena Hills Puncak Project
+                    January 2025 – March 2025
                   </td>
                 </tr>
 
@@ -866,10 +842,6 @@ const BrandingSection = () => {
                 <tr>
                   <td className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100 text-center">
                     6
-                  </td>
-
-                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
-                    September 2024 - January 2025
                   </td>
 
                   <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
@@ -884,16 +856,16 @@ const BrandingSection = () => {
                       PT. Dicoding Akademi Indonesia
                     </a>
                   </td>
+
+                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+                    September 2024 - January 2025
+                  </td>
                 </tr>
 
                 {/* 7 */}
                 <tr>
                   <td className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100 text-center">
                     7
-                  </td>
-
-                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
-                    December 2020 - January 2023
                   </td>
 
                   <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
@@ -904,6 +876,10 @@ const BrandingSection = () => {
                     <a href="https://linktr.ee/abeenet" className="black">
                       Abee Net & Payment
                     </a>
+                  </td>
+
+                  <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
+                    December 2020 - January 2023
                   </td>
                 </tr>
               </tbody>
