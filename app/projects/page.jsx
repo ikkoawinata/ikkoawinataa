@@ -31,19 +31,19 @@ const posts = [
   {
     id: 39,
     title: "SPARRING",
-    href: "https://www.behance.net/gallery/254080921/SPARRING",
+    href: "https://www.behance.net/gallery/257943239/SPARRING",
     description:
       "Connecting players through matches, communities, and shared passion for sports.",
     date: "2026",
     datetime: "",
     category: {
       title: "More",
-      href: "https://www.behance.net/gallery/254080921/SPARRING",
+      href: "https://www.behance.net/gallery/257943239/SPARRING",
     },
     author: {
       name: "Michael Foster",
       role: "Co-Founder / CTO",
-      href: "https://www.behance.net/gallery/254080921/SPARRING",
+      href: "https://www.behance.net/gallery/257943239/SPARRING",
       imageUrl: "./hero/sparring.png", // Gambar placeholder
     },
     marketingTags: ["Figma"], //
