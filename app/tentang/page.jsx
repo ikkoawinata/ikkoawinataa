@@ -729,10 +729,10 @@ const BrandingSection = () => {
               </thead>
 
               <tbody>
-                {/* 2 */}
+                {/* 1 */}
                 <tr>
                   <td className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100 text-center">
-                    2
+                    1
                   </td>
 
                   <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
@@ -750,10 +750,10 @@ const BrandingSection = () => {
                   </td>
                 </tr>
 
-                {/* 3 */}
+                {/* 2 */}
                 <tr>
                   <td className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100 text-center">
-                    3
+                    2
                   </td>
 
                   <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
@@ -774,10 +774,10 @@ const BrandingSection = () => {
                   </td>
                 </tr>
 
-                {/* 4 */}
+                {/* 3 */}
                 <tr>
                   <td className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100 text-center">
-                    4
+                    3
                   </td>
 
                   <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
@@ -798,13 +798,13 @@ const BrandingSection = () => {
                   </td>
                 </tr>
 
-                {/* 5 */}
+                {/* 4 */}
                 <tr>
                   <td
                     className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100 text-center"
                     rowSpan={2}
                   >
-                    5
+                    4
                   </td>
 
                   <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
@@ -838,10 +838,10 @@ const BrandingSection = () => {
                   </td>
                 </tr>
 
-                {/* 6 */}
+                {/* 5 */}
                 <tr>
                   <td className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100 text-center">
-                    6
+                    5
                   </td>
 
                   <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
@@ -862,10 +862,10 @@ const BrandingSection = () => {
                   </td>
                 </tr>
 
-                {/* 7 */}
+                {/* 6 */}
                 <tr>
                   <td className="px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100 text-center">
-                    7
+                    6
                   </td>
 
                   <td className="font-tentang px-4 py-2 border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-100">
